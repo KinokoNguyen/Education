@@ -1,0 +1,116 @@
+
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'),
+        url(../fonts/latin1.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'), 
+        url(../fonts/latin2.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'),
+        url(../fonts/latin3.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'), 
+        url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+
+
+//Huynh Tan Hoa
+.education_module1{
+    background-color: #eeeeee !important;
+    .error {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-family: 'Crete Round',serif;
+        padding: 0px 0px 100px 0px;
+        .error-404 {
+            font-size: 400px;
+            line-height: 400px;
+            margin: 0px 0px 50px 0px;
+            color: #00a685;
+
+        }
+        .ohh {
+            font-size: 72px;
+            line-height: normal;
+        }
+        .away {
+            font-size: 36px;
+        }
+        img{
+            margin-top: 55px;
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+            border: 0;
+        }
+        .color{
+            color: #00a685;
+        }
+
+
+
+        @media (max-width: 768px){
+            .ohh {
+                font-size: 32px;
+            }
+            .away {
+                font-size: 20px;
+            }
+            .error-404 {
+                font-size: 300px;
+                line-height: 300px;
+            }
+
+            .error-404 img{
+                margin-top: 0px;
+            }
+        }
+
+
+        @media (max-width: 480px){
+            .ohh {
+                font-size: 22px;
+            }
+            .error-404 {
+                font-size: 100px;
+                line-height: 100px;
+            }
+            .error-404 > span {
+                width: 100px;
+                display: inline-block;
+            }
+            .error-404 img{
+                margin-top: 0px;
+            }
+        }
+
+    }
+}

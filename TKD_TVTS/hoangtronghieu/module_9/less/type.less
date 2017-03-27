@@ -1,0 +1,145 @@
+.type-9{
+    .contant {
+        float: left;
+        width: 100%;
+        .container {
+            margin-right: auto;
+            margin-left: auto;
+            .blog {
+                float: left;
+                width: 100%;
+                .comments {
+                    float: left;
+                    width: 100%;
+                    margin: 0px 0px 30px 0px;
+                    h2{
+                        font-size: 18px;
+                        font-family: 'Crete Round',serif;
+                        line-height: 22px;
+                        margin: 0px 0px 15px 0px;
+                        font-weight: normal;
+                    }
+                    ul {
+                        list-style: none;
+                        float: left;
+                        width: 100%;
+                        position: relative;
+                        li {
+                            float: left;
+                            width: 100%;
+                            margin: 20px 0px 0px 0px;
+                        }
+                        ul {
+                            width: auto;
+                            padding: 0px 0px 0px 90px;
+                            li {
+                                position: relative;
+                            }
+                        }
+                    }
+                    ul ul li:before {
+                        left: -55px;
+                        height: 1px;
+                        width: 35px;
+                        top: 30px;
+                        background-color: #00a685;
+                    }
+                    ul ul:before {
+                        content: "";
+                        bottom: 0px;
+                        width: 1px;
+                        position: absolute;
+                        left: 35px;
+                        top: 0;
+                        background-color: #00a685;
+                    }
+                    ul li:before {
+                        content: "";
+                        bottom: 0px;
+                        width: 1px;
+                        position: absolute;
+                        left: 35px;
+                        top: 110px;
+                        background-color: #00a685;
+                    }     
+                    .thumb {
+                        float: left;
+                    }
+                    .text {
+                        padding: 0px 0px 0px 90px;
+                        h4 {
+                            font-size: 18px;
+                            font-weight: normal;
+                            line-height: 20px;
+                            margin: 0px;
+                            display: inline-block;
+                            a {
+                                color: #2c2c2c;
+                            }
+                        }
+                    }
+                    P.DATE{
+                        color: #00a685;
+                        display: inline-block;
+                        font-size: 12px;
+                        margin: 0px;
+                    }
+                    p {
+                        font-size: 12px;
+                        color: #707070;
+                    }
+                    .btn-style {
+                        padding: 6px 15px;
+                        font-size: 14px;
+                        font-weight: normal;
+                        -webkit-transition: all 0.3s ease-in-out;
+                        background-color: #00a685;
+                        display: inline-block;
+                        border-radius: 5px;
+                        color: #fff;
+                        padding: 10px 20px;
+                        font-size: 13px;
+                        font-weight: 500;
+                        border: none;
+                    }
+                }
+            }
+        }
+        .container:before, .container:after {
+            display: table;
+            line-height: 0;
+            content: "";
+        }
+
+    }
+    @media (max-width: 768px){
+        .col-md-8{
+            width: 50%;
+        }
+    }
+    @media (max-width: 480px){
+        .contant .container .blog .comments ul ul {
+            width: auto;
+            padding: 0px 0px 0px 36px;
+        }
+        .contant .container .blog .comments ul ul:before {
+            content: "";
+            bottom: 0px;
+            width: 1px;
+            position: absolute;
+            left: 35px;
+            top: -250px;
+            background-color: #00a685;
+        }
+        .col-md-8{
+            width: 25%;
+            ul li:before {
+                display: none;
+
+            }    
+
+        }
+
+    }
+
+}
