@@ -10,14 +10,15 @@
     $url_path = $url_host . $matches[1][0];
 ?>
 
-<div class="type-2000">
-    <div class="container">
+<div class="type-2006">
+    <div class="container">     
         <div class="row">
-            <div class="error">
-                <p class="error-404">4<span><img src="images/error.png" alt=""></span>4</p>
-                <p class="ohh">Uh Oh! Looks like something broke.</p>
-                <p class="away">Take me away <span class="color">or</span> Report This</p>
+            <div class="clearfix"></div>
+            <div class="the-best">
+                <p>The Best Websites for Free Online Courses, Certificates, Degrees, and Educational Resources</p>
+                <h2>take $10 0ff for new users</h2>
             </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 </div>

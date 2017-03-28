@@ -10,13 +10,14 @@
     $url_path = $url_host . $matches[1][0];
 ?>
 
-<div class="type-2000">
-    <div class="container">
+<div class="type-2009">
+    <div class="container fix">
         <div class="row">
-            <div class="error">
-                <p class="error-404">4<span><img src="images/error.png" alt=""></span>4</p>
-                <p class="ohh">Uh Oh! Looks like something broke.</p>
-                <p class="away">Take me away <span class="color">or</span> Report This</p>
+            <div class="page-heading">
+                <div class="container">
+                    <h2>Error 404</h2>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                </div>
             </div>
         </div>
     </div>
