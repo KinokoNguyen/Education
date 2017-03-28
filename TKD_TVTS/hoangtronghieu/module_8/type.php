@@ -1,6 +1,6 @@
 ﻿<!doctype html>
 
-<html style="background-color: #f3f3f4;">
+<html>
 
     <head>
         <title></title>
@@ -119,16 +119,9 @@
             </div>
         </div>
         <script src="css/jquery-1.11.0.min.js"></script>
-
         <script src="css/bootstrap.min.js"></script>
-
-
         <script type="text/javascript" src="css/jquery.easy-pie-chart.js"></script>
-
-
         <script src="css/functions.js"></script>
-
-
     </body>
 
 </html>
