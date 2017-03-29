@@ -10,13 +10,13 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/2012.less', 'css/2012.css');
+        $less->compileFile('less/2013.less', 'css/2013.css');
         ?> 
-        <link href="css/2012.css" rel="stylesheet" type="text/css"/>
+        <link href="css/2013.css" rel="stylesheet" type="text/css"/>
 
     </head> 
 
     <body> 
-        <?php include '../2012/2012-content.php'; ?>
+       <?php include '../2013/2013-content.php'; ?>
     </body>
 </html>

@@ -10,13 +10,16 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/2012.less', 'css/2012.css');
+        $less->compileFile('less/2015.less', 'css/2015.css');
         ?> 
-        <link href="css/2012.css" rel="stylesheet" type="text/css"/>
-
+        <link href="css/2015.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/jquery.accordion.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head> 
 
     <body> 
-        <?php include '../2012/2012-content.php'; ?>
+        <?php include '../2015/2015-content.php'; ?>
     </body>
 </html>
