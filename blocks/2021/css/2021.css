@@ -16,7 +16,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-.type-2021 .btn-style {
+.type-2021 .sidebar .widget .btn-style {
   display: inline-block;
   border-radius: 5px;
   color: #fff;
@@ -29,8 +29,40 @@
   margin-bottom: 20px;
   float: right;
 }
-.type-2021 .btn-style:hover {
+.type-2021 .sidebar .widget .btn-style:hover {
   background: #0f1521;
+}
+.type-2021 .sidebar .widget-newsletter {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.type-2021 .sidebar .widget-newsletter .inner {
+  padding: 20px;
+}
+.type-2021 .sidebar .widget-newsletter .inner h2 {
+  margin-top: 0;
+  color: #00a685;
+}
+.type-2021 .sidebar .input-cover {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.type-2021 .sidebar .input-cover input[type="text"] {
+  background-color: #f2f2f2;
+  min-height: 40px;
+  border: solid 1px #dedede;
+  border-radius: 0px;
+  padding: 4px 6px 4px 36px;
+  width: 100%;
+}
+.type-2021 .sidebar .input-cover i {
+  min-height: 40px;
+  color: #c0c2c4;
+  position: absolute;
+  left: 10px;
+  padding: 10px 0px;
+  font-size: 20px;
 }
 .type-2021 .widget-tags ul {
   float: left;
@@ -83,36 +115,4 @@
   top: 50%;
   margin-top: -4px;
   z-index: 1;
-}
-.type-2021 .widget-newsletter {
-  background-color: #fff;
-  margin-bottom: 20px;
-}
-.type-2021 .widget-newsletter .inner {
-  padding: 20px;
-}
-.type-2021 .widget-newsletter .inner h2 {
-  margin-top: 0;
-  color: #00a685;
-}
-.type-2021 .input-cover {
-  float: left;
-  width: 100%;
-  position: relative;
-}
-.type-2021 .input-cover input[type="text"] {
-  background-color: #f2f2f2;
-  min-height: 40px;
-  border: solid 1px #dedede;
-  border-radius: 0px;
-  padding: 4px 6px 4px 36px;
-  width: 100%;
-}
-.type-2021 .input-cover i {
-  min-height: 40px;
-  color: #c0c2c4;
-  position: absolute;
-  left: 10px;
-  padding: 10px 0px;
-  font-size: 20px;
 }

@@ -1,23 +1,15 @@
 .type-2028 {
-  background-color: #eeeeee !important;
+  background-color: #eeeeee;
   font-family: 'Crete Round', serif;
 }
 .type-2028 .the-best {
   background-color: #00a685;
-}
-.type-2028 .the-best {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 20px;
   -webkit-box-sizing: border-box;
   text-align: center;
   color: #fff;
-}
-.type-2028 .the-best p {
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  margin: 0px;
 }
 .type-2028 .the-best h2 {
   font-weight: normal;
@@ -36,6 +28,12 @@
   position: absolute;
   left: 0px;
   top: -8px;
+}
+.type-2028 .the-best p {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0px;
 }
 @media (min-width: 1200px) {
   .the-best {

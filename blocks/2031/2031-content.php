@@ -1,21 +1,21 @@
 <?php
-    $url_host = $_SERVER['HTTP_HOST'];
+$url_host = $_SERVER['HTTP_HOST'];
 
 
-    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    preg_match_all($pattern_uri, __DIR__, $matches);
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+$url_path = $url_host . $matches[1][0];
 ?>
 <div class="type-2031">
     <div class="content">
         <div class="featured-courses">
             <h2>Browsing All Topics</h2>
 
-            <div class="row">
+            <div class="row height-row">
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="course">
                         <div class="thumb">
@@ -23,15 +23,18 @@
                             <div class="price"><span>$</span>21</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Music</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Music</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$800</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$800</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -48,20 +51,24 @@
                             <div class="price"><span>$</span>32</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Holidays Education</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Holidays Education</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$750</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$750</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
                                 <a href="#">Detail</a>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -73,15 +80,18 @@
                             <div class="price"><span>$</span>75</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Marketing</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Marketing</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$925</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$925</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -98,15 +108,18 @@
                             <div class="price"><span>$</span>25</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Management</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Management</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$1000</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$1000</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -123,15 +136,18 @@
                             <div class="price"><span>$</span>21</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Music</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Music</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$800</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$800</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -148,15 +164,18 @@
                             <div class="price"><span>$</span>32</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Holidays Education</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Holidays Education</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$750</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$750</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -173,15 +192,18 @@
                             <div class="price"><span>$</span>75</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Marketing</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Marketing</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$925</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$925</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -198,15 +220,18 @@
                             <div class="price"><span>$</span>25</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Management</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Management</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$1000</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$1000</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -223,15 +248,18 @@
                             <div class="price"><span>$</span>21</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Music</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Music</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$800</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$800</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -248,15 +276,18 @@
                             <div class="price"><span>$</span>32</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Holidays Education</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Holidays Education</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$750</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$750</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -273,15 +304,18 @@
                             <div class="price"><span>$</span>75</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Marketing</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Marketing</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$925</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$925</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>
@@ -298,15 +332,18 @@
                             <div class="price"><span>$</span>25</div>
                         </div>
                         <div class="text">
-                            <div class="header">
-                                <h4>Management</h4>
-                                <div class="rating">
-                                    <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                            <div class="height-equal">
+                                <div class="header">
+                                    <h4>Management</h4>
+                                    <div class="rating">
+                                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="course-name">
-                                <p>How to play the guitar</p>
-                                <span>$1000</span>
+                                <div class="course-name">
+                                    <p>How to play the guitar</p>
+                                    <span>$1000</span>
+                                </div>
+
                             </div>
                             <div class="course-detail-btn">
                                 <a href="#">Subscribe</a>

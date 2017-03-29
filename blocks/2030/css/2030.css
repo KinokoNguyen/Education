@@ -1,45 +1,46 @@
 .type-2030 {
-  background-color: #eeeeee !important;
+  background-color: #eeeeee;
+  font-family: 'Crete Round', serif;
 }
-.type-2030 .thumb img {
+.type-2030 .event-page .thumb img {
   max-width: 100%;
 }
-.type-2030 a:-webkit-any-link {
+.type-2030 .event-page a:-webkit-any-link {
   cursor: auto;
 }
-.type-2030 .admin .thumb {
+.type-2030 .event-page .admin .thumb {
   float: left;
   border: solid 1px #d4d1d1;
 }
-.type-2030 .social-icons a {
+.type-2030 .event-page .social-icons a {
   display: inline-block;
   height: 20px;
   width: 20px;
   text-align: center;
   color: #fff;
 }
-.type-2030 .admin .social-icons {
+.type-2030 .event-page .admin .social-icons {
   float: right;
 }
-.type-2030 .fa-facebook:before {
+.type-2030 .event-page .fa-facebook:before {
   content: "\f09a";
 }
-.type-2030 .fa-linkedin:before {
+.type-2030 .event-page .fa-linkedin:before {
   content: "\f0e1";
 }
-.type-2030 .fa-dribbble:before {
+.type-2030 .event-page .fa-dribbble:before {
   content: "\f17d";
 }
-.type-2030 .fa-twitter:before {
+.type-2030 .event-page .fa-twitter:before {
   content: "\f099";
 }
-.type-2030 .fa-google-plus:before {
+.type-2030 .event-page .fa-google-plus:before {
   content: "\f0d5";
 }
-.type-2030 .admin .social-icons a {
+.type-2030 .event-page .admin .social-icons a {
   background-color: #00a685;
 }
-.type-2030 .admin {
+.type-2030 .event-page .admin {
   float: left;
   width: 100%;
   padding: 12px;
@@ -47,11 +48,10 @@
   border: solid 1px #d4d1d1;
   margin: 20px 0px 30px 0px;
 }
-.type-2030 .admin .thumb img {
+.type-2030 .event-page .admin .thumb img {
   width: 100%;
 }
-.type-2030 .admin h2 {
-  font-family: 'Crete Round', serif;
+.type-2030 .event-page .admin h2 {
   font-weight: normal;
   font-size: 24px;
   margin: 0px;
@@ -62,11 +62,11 @@
   -webkit-margin-end: 0px;
   display: block;
 }
-.type-2030 .admin h2 a {
+.type-2030 .event-page .admin h2 a {
   color: #00a685;
   text-decoration: none;
 }
-.type-2030 .admin p {
+.type-2030 .event-page .admin p {
   margin: 0;
   display: block;
   -webkit-margin-before: 1em;
@@ -78,31 +78,31 @@
   margin-top: -15px;
   -webkit-box-sizing: border-box;
 }
-.type-2030 .admin .text {
+.type-2030 .event-page .admin .text {
   position: relative;
   margin-top: -20px;
 }
-.type-2030 .profession {
+.type-2030 .event-page .profession {
   font-family: 'Crete Round', serif;
   font-weight: bold;
 }
-.type-2030 .leave-reply {
+.type-2030 .event-page .leave-reply {
   float: left;
   width: 100%;
 }
-.type-2030 .leave-reply h2 {
+.type-2030 .event-page .leave-reply h2 {
   font-size: 18px;
   font-family: 'Crete Round', serif;
   line-height: 22px;
   margin: 0px 0px 15px 0px;
   font-weight: normal;
 }
-.type-2030 form {
+.type-2030 .event-page form {
   margin: 0 0 20px;
   display: block;
 }
-.type-2030 .leave-reply input[type="text"],
-.type-2030 .leave-reply textarea {
+.type-2030 .event-page .leave-reply input[type="text"],
+.type-2030 .event-page .leave-reply textarea {
   min-height: 40px;
   width: 100%;
   background-color: #fff;
@@ -118,10 +118,10 @@
   margin-left: 0;
   width: 100%;
 }
-.type-2030 .leave-reply textarea {
+.type-2030 .event-page .leave-reply textarea {
   resize: none;
 }
-.type-2030 .btn-style {
+.type-2030 .event-page .btn-style {
   -webkit-transition: all 0.3s ease-in-out;
   background-color: #00a685;
   display: inline-block;
@@ -132,7 +132,7 @@
   font-weight: 600;
   border: none;
 }
-.type-2030 .campaign {
+.type-2030 .event-page .campaign {
   float: left;
   width: 100%;
   padding: 50px 30px;
@@ -140,8 +140,8 @@
   text-align: center;
   margin: 38px 0px 0px 0px;
 }
-.type-2030 .campaign h4,
-.type-2030 .campaign p {
+.type-2030 .event-page .campaign h4,
+.type-2030 .event-page .campaign p {
   font-family: 'Crete Round', serif;
   font-size: 16px;
   text-transform: uppercase;
@@ -149,7 +149,7 @@
   font-weight: normal;
   color: #fff;
 }
-.type-2030 .campaign .social-icons a {
+.type-2030 .event-page .campaign .social-icons a {
   height: 50px;
   width: 50px;
   background-color: #FFF;
@@ -160,13 +160,13 @@
   border-radius: 100%;
   margin: 3px;
 }
-.type-2030 .social-icons a {
+.type-2030 .event-page .social-icons a {
   display: inline-block;
   height: 20px;
   width: 20px;
   text-decoration: none;
 }
-.type-2030 .campaign .social-icons a:hover {
+.type-2030 .event-page .campaign .social-icons a:hover {
   background-color: #00a685;
 }
 @media (min-width: 1200px) {

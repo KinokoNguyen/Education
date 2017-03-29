@@ -1,7 +1,6 @@
 ﻿<!DOCTYPE html>
 
-<html style="background-color: #f3f3f4;">
-
+<html>
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -16,13 +15,12 @@
         $less->compileFile('less/2018.less', 'css/2018.css');
         ?>
         <link href="css/2018.css" rel="stylesheet" type="text/css" />
-
     </head>
 
     <body>
-        <div class="container-fluid bg-color">
-            <div class="row">
-                <div class="container">
+        <div class="bg-color">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-8 col-sm-8 col-xs-12">
                         <?php
                         include './2018-content.php';

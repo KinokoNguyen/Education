@@ -1,5 +1,5 @@
 .type-2029 {
-  background-color: #eeeeee !important;
+  background-color: #eeeeee;
   padding-bottom: 50px;
 }
 .type-2029 .text-detail {
@@ -7,7 +7,7 @@
   width: 100%;
   margin: 20px 0px;
 }
-.type-2029 p {
+.type-2029 .text-detail p {
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -44,10 +44,10 @@
   outline: none;
   -webkit-box-sizing: border-box;
 }
-.type-2029 a:-webkit-any-link {
+.type-2029 .text-detail a:-webkit-any-link {
   cursor: auto;
 }
-.type-2029 li {
+.type-2029 .text-detail li {
   display: list-item;
   text-align: -webkit-match-parent;
 }

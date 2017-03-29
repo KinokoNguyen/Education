@@ -5,5 +5,4 @@
             <h2>take $10 0ff for new users</h2>
         </div>
     </div>
-
 </div>
