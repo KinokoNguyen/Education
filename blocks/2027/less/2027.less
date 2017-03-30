@@ -1,6 +1,10 @@
 .type-2027{
     background-color: #eeeeee;
-    font-family: 'Crete Round',serif;
+     font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+    
+    
     .events {
         margin-top: 55px;
         .thumb img {
@@ -90,17 +94,18 @@
                 i {
                     font-size: 18px;
                     margin: 0px 10px 0px 0px;
-                    color: #00a685;
+                    color: @color_green;
                 }
             }
         }
         .btn-style{
-            background-color: #00a685;
+            background-color: @color_green;
             color: #fff;
         }
         .btn-style:hover {
             color: #fff;
             text-decoration: none;
+            background-color: @color_hover;
         }
         .btn-style {
             display: inline-block;
@@ -120,7 +125,7 @@
         color: #32383b;
         font-size: 18px;
         font-family: 'Crete Round',serif;
-        border: solid 1px #00a685;
+        border: solid 1px @color_green;
         margin-right: 20px;
         outline: none;
         -webkit-box-sizing: border-box;
@@ -135,7 +140,7 @@
             text-decoration: none;
         }
         a:hover{
-            color: #00a685;
+            color: @color_green;
         }
         a:before {
             content: "";
@@ -146,14 +151,14 @@
             left: 0px;
             top: 50%;
             margin-top: -3px;
-            background-color: #00a685;
+            background-color: @color_green;
         }
     } 
     .event-vanue p.color {
         font-size: 16px;
         font-family: 'Crete Round',serif;
         text-transform: uppercase;
-        color: #00a685;
+        color: @color_green;
     }
     .event-vanue p {
         margin: 0px;
@@ -204,10 +209,10 @@
             text-decoration: none;
             background-color: #ffffff;
             border: 1px solid #dddddd;
-            color: #00a685;
+            color: @color_green;
         }
         ul>li>a:hover{
-            background-color: #00a685;
+            background-color: @color_green;
         }
         ul>li>a:hover{
             color: #ffffff;

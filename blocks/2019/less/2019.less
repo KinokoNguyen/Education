@@ -2,6 +2,9 @@
     background-color:#E6E6FA;
 }
 .type-2019{
+    font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
 
     .sidebar{
         float:left;
@@ -34,14 +37,19 @@
         content:"\f099";position:absolute;
         left:0px;top:0px;
         font-family:FontAwesome;font-size:25px;
-        color: #00a685;
+        color: @color_green;
     }
     .widget-twitter ul li p{
         font-family:'Crete Round',serif;
         color:#dcdcdc;margin:0px;}
-    .widget-twitter ul li a{
-        font-family:'Crete Round',serif;
-        color: #00a685;
-        text-decoration: none;
+    .widget-twitter ul li {
+        a{
+            font-family:'Crete Round',serif;
+            color: @color_green;
+            text-decoration: none;
+        }
+        a:hover{
+            color: @color_hover;
+        }
     }
 }

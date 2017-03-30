@@ -1,6 +1,7 @@
 .type-2029 {
   background-color: #eeeeee;
   padding-bottom: 50px;
+  font-family: 'Crete Round', serif;
 }
 .type-2029 .text-detail {
   float: left;
@@ -18,7 +19,6 @@
 }
 .type-2029 .text-detail h2 {
   font-size: 30px;
-  font-family: 'Crete Round', serif;
   font-weight: normal;
 }
 .type-2029 .text-detail ul li {
@@ -43,6 +43,9 @@
   padding: 0px;
   outline: none;
   -webkit-box-sizing: border-box;
+}
+.type-2029 .text-detail ul li a:hover {
+  color: #1fd1ad;
 }
 .type-2029 .text-detail a:-webkit-any-link {
   cursor: auto;

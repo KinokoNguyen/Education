@@ -40,6 +40,9 @@
 .type-2030 .event-page .admin .social-icons a {
   background-color: #00a685;
 }
+.type-2030 .event-page .admin .social-icons a:hover {
+  background-color: #1fd1ad;
+}
 .type-2030 .event-page .admin {
   float: left;
   width: 100%;
@@ -131,6 +134,9 @@
   font-size: 16px;
   font-weight: 600;
   border: none;
+}
+.type-2030 .event-page .btn-style:hover {
+  background-color: #1fd1ad;
 }
 .type-2030 .event-page .campaign {
   float: left;

@@ -2,7 +2,10 @@
     background-color: #eee;
 }
 .type-2025{
-    font-family: 'Crete Round',serif;
+     font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+    
     .contant {
         float: left;
         width: 100%;
@@ -43,7 +46,7 @@
                     height: 1px;
                     width: 35px;
                     top: 30px;
-                    background-color: #00a685;
+                    background-color: @color_green;
                 }
                 ul ul:before {
                     content: "";
@@ -52,7 +55,7 @@
                     position: absolute;
                     left: 35px;
                     top: 0;
-                    background-color: #00a685;
+                    background-color: @color_green;
                 }
 
 
@@ -70,10 +73,11 @@
                         a {
                             color: #2c2c2c;
                         }
+                   
                     }
                 }
                 P.DATE{
-                    color: #00a685;
+                    color: @color_green;
                     display: inline-block;
                     font-size: 12px;
                     margin: 0px;
@@ -87,7 +91,7 @@
                     font-size: 14px;
                     font-weight: normal;
                     -webkit-transition: all 0.3s ease-in-out;
-                    background-color: #00a685;
+                    background-color: @color_green;
                     display: inline-block;
                     border-radius: 5px;
                     color: #fff;
@@ -95,6 +99,12 @@
                     font-size: 13px;
                     font-weight: 500;
                     border: none;
+                }
+                .btn-style:hover{
+                    background: @color_hover;
+                }
+                a{
+                    text-decoration: none;
                 }
             }
         }
@@ -108,7 +118,7 @@
             position: absolute;
             left: 35px;
             top: 110px;
-            background-color: #00a685;
+            background-color: @color_green;
         }
     }
     @media (max-width: 480px){

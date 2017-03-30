@@ -2,8 +2,11 @@
     background: #eee;
 }
 .type-2020{
-    font-family:'Crete Round',serif;
+     font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
     @color_green: #00a685;
+    
+    
     .sidebar{
         background: #fff;
         float:left;
@@ -36,7 +39,7 @@
 
                     }
                     a:hover{
-                        color: #00cea5;
+                        color: @color_hover;
                         background: none;
                     }
                 }
@@ -50,7 +53,7 @@
                     text-decoration: none;
                 }
                 a:hover{
-                    background: #00cea5;
+                    background: @color_hover;
                 }
             }
             .widget-slider{

@@ -98,6 +98,12 @@
   font-weight: 500;
   border: none;
 }
+.type-2025 .contant .blog .comments .btn-style:hover {
+  background: #1fd1ad;
+}
+.type-2025 .contant .blog .comments a {
+  text-decoration: none;
+}
 @media (min-width: 481px) {
   .type-2025 ul li:before {
     content: "";

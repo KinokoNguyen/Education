@@ -3,10 +3,12 @@
 }
 .type-2032{
     font-family: 'Crete Round',serif;
+    @color_green: #00a685;
+
     .content{
         .widget-slider{
             .item{
-                border-bottom: 5px solid #00a685;
+                border-bottom: 5px solid @color_green;
             }
             .owl-carousel{
                 display: none;
@@ -45,11 +47,11 @@
             }
             .owl-page span:hover{
                 cursor: pointer;
-                background: #00a685 !important;
+                background: @color_green !important;
             }
             .owl-pagination .active{
                 span{
-                    background: #00a685 !important;
+                    background: @color_green !important;
                 }
 
             }
@@ -75,10 +77,10 @@
                 float: left;
                 width: 100%;
                 -webkit-box-sizing: border-box;
-                border-color: #00a685;
+                border-color: @color_green;
             }
             .widget-course-categories {
-                border-color: #00a685 !important;
+                border-color: @color_green !important;
                 background-color: #0f1521;
                 border-top: solid 5px;
                 padding: 10px 0px;
@@ -114,7 +116,7 @@
                 text-decoration: none;
             }
             .widget-course-categories ul li a:hover{
-                background-color: #00a685;        
+                background-color: @color_green;        
                 padding: 10px 25px;
                 -webkit-transition: all 0.3s ease-in-out;
 
@@ -182,14 +184,14 @@
             font-weight: normal;
         }
         .text a{
-            color: #00a685;
+            color: @color_green;
             padding: 0px 5px 0px 0px;
             display: inline-block;
             text-decoration: none;
         }
         .text span {
             font-size: 30px;
-            color: #00a685;
+            color: @color_green;
         }
         .text * {
             margin: 0px;
@@ -198,7 +200,7 @@
             font-size: 16px;
         }
         .box:hover{
-            background-color: #00a685;
+            background-color: @color_green;
         }
         .box:hover h2 {
             color: #fff;
@@ -227,7 +229,7 @@
             margin: 0px 0px 15px 0px;
         }
         .widget-slider h2{
-            color: #00a685;
+            color: @color_green;
         }
         .bx-wrapper {
             position: relative;
@@ -255,7 +257,7 @@
             float: left;
             width: 100%;
             border-bottom: solid 5px;
-            border-color: #00a685;
+            border-color: @color_green;
             margin: 0px 0px 0px -45px;
         }
         .bx-wrapper img {
@@ -321,7 +323,7 @@
             opacity: 0.4;
         }
         .bx-wrapper .bx-pager.bx-default-pager a:hover{
-            background-color: #00a685;
+            background-color: @color_green;
         }
     }
 }

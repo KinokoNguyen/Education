@@ -1,6 +1,9 @@
 .type-2030{
     background-color: #eeeeee;
-font-family: 'Crete Round',serif;
+    font-family: 'Crete Round',serif;
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+
     .event-page{
         .thumb img {
             max-width: 100%;
@@ -37,9 +40,15 @@ font-family: 'Crete Round',serif;
         .fa-google-plus:before {
             content: "\f0d5";
         }
-        .admin .social-icons a{
-            background-color: #00a685;
-        }
+        .admin .social-icons{
+            a{
+                background-color: @color_green;
+            }
+            a:hover{
+                background-color: @color_hover;
+            }
+        } 
+
         .admin {
             float: left;
             width: 100%;
@@ -52,7 +61,7 @@ font-family: 'Crete Round',serif;
             width: 100%;
         }
         .admin h2{
-            
+
             font-weight: normal;
             font-size: 24px;
             margin: 0px;
@@ -64,7 +73,7 @@ font-family: 'Crete Round',serif;
             display: block;
         }
         .admin h2 a{
-            color: #00a685;
+            color: @color_green;
             text-decoration: none;
         }
         .admin p {
@@ -124,7 +133,7 @@ font-family: 'Crete Round',serif;
         }
         .btn-style{
             -webkit-transition: all 0.3s ease-in-out;
-            background-color: #00a685;
+            background-color: @color_green;
             display: inline-block;
             border-radius: 5px;
             color: #fff;
@@ -132,6 +141,9 @@ font-family: 'Crete Round',serif;
             font-size: 16px;
             font-weight: 600;
             border: none;
+        }
+        .btn-style:hover{
+            background-color: @color_hover;
         }
         .campaign {
             float: left;
@@ -167,7 +179,7 @@ font-family: 'Crete Round',serif;
             text-decoration: none;
         }
         .campaign .social-icons a:hover{
-            background-color: #00a685;
+            background-color: @color_green;
         }
     }
 }

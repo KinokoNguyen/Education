@@ -1,6 +1,9 @@
 .bg-color {
   background-color: #E6E6FA;
 }
+.type-2019 {
+  font-family: 'Crete Round', serif;
+}
 .type-2019 .sidebar {
   float: left;
   width: 100%;
@@ -55,4 +58,7 @@
   font-family: 'Crete Round', serif;
   color: #00a685;
   text-decoration: none;
+}
+.type-2019 .widget-twitter ul li a:hover {
+  color: #1fd1ad;
 }

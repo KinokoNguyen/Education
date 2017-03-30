@@ -1,6 +1,9 @@
 .bg-color {
   background-color: #E6E6FA;
 }
+.type-2018 {
+  font-family: 'Crete Round', serif;
+}
 .type-2018 .blog-contant {
   float: left;
   width: 100%;
@@ -23,6 +26,9 @@
 }
 .type-2018 .blog-contant .blog-comments a i {
   color: #00a685;
+}
+.type-2018 .blog-contant .blog-comments a i:hover {
+  color: #1fd1ad;
 }
 .type-2018 .blog-contant .blog-comments:before {
   position: absolute;
@@ -61,6 +67,7 @@
   float: left;
   width: 100%;
   position: relative;
+  margin-bottom: 20px;
 }
 .type-2018 .blog-contant .thumb img {
   width: 100%;
@@ -91,9 +98,15 @@
   font-family: 'Crete Round', serif;
   margin: 20px 0px 20px 0px;
   position: relative;
+  font-weight: 600;
+}
+.type-2018 .blog-contant h2 a:hover {
+  color: #00a685;
+}
+.type-2018 .blog-contant .btn-style:hover {
+  background-color: #1fd1ad;
 }
 .type-2018 .blog-contant a:hover {
-  color: #00a685;
   text-decoration: none;
 }
 .type-2018 .blog-contant h2:before {
