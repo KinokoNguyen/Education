@@ -125,6 +125,9 @@
   color: #fff;
   border: none;
 }
+.type-2017 .btn-style:hover {
+  background-color: #1df1ad;
+}
 .type-2017 .widget.widget-search-course button {
   float: right;
   font-weight: normal;

@@ -69,9 +69,6 @@
   font-weight: 600;
   border: none;
 }
-.type-2002 .btn-style:hover {
-  text-decoration: none;
-}
 .type-2002 .profile-box {
   border-radius: 5px;
   float: left;
@@ -126,6 +123,9 @@
   width: 100%;
   padding: 30px 30px;
   color: #fff;
+}
+.type-2002 .edit-profile .logout:hover {
+  background: #1fd1ad;
 }
 .type-2002 .edit-profile .logout a:before {
   content: "\f08b";
@@ -299,6 +299,10 @@
 .type-2002 .editing .input-block-level {
   width: 100%;
   box-sizing: border-box;
+}
+.type-2002 .btn-style:hover {
+  text-decoration: none;
+  background: #1fd1ad;
 }
 @media (max-width: 480px) {
   .type-2002 .editing {

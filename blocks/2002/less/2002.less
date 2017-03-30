@@ -77,9 +77,6 @@
             border: none;
         }
     }
-    .btn-style:hover {
-        text-decoration: none;
-    }
     .profile-box {
         border-radius: 5px;
         float: left;
@@ -134,7 +131,9 @@
             padding: 30px 30px;
             color: #fff;
         }
-
+        .logout:hover {
+            background: #1fd1ad;
+        }
         .logout a:before {
             content: "\f08b";
             position: absolute;
@@ -308,6 +307,11 @@
             box-sizing: border-box;
         }
     }
+    .btn-style:hover {
+        text-decoration: none;
+        background: #1fd1ad;
+    }
+    
     @media (max-width: 480px){
         .editing {
             padding: 15px;

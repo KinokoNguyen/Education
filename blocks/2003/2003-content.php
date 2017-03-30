@@ -1,13 +1,13 @@
 <?php
-    $url_host = $_SERVER['HTTP_HOST'];
+$url_host = $_SERVER['HTTP_HOST'];
 
-    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    preg_match_all($pattern_uri, __DIR__, $matches);
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+$url_path = $url_host . $matches[1][0];
 ?>
 
 <div class="type-2003">
@@ -159,6 +159,54 @@
                         </div>
                     </div>
                     <!--/END TEACHER 6-->
+
+                    <!--TEACHER 7-->
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="teachers">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-flickr"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-vimeo-square"></i></a>
+                            </div>
+                            <div class="thumb">
+                                <a href="#"><img src="images/teachers4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h2><a href="#">Mickey Rorey</a></h2>
+                                <p>Science Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/END TEACHER 7-->
+
+                    <!--TEACHER 8-->
+                    <div class="col-md-3 col-sm-3 col-xs-12">
+                        <div class="teachers">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-flickr"></i></a>
+                                <a href="#"><i class="fa fa-dribbble"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-vimeo-square"></i></a>
+                            </div>
+                            <div class="thumb">
+                                <a href="#"><img src="images/teachers4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h2><a href="#">Mickey Rorey</a></h2>
+                                <p>Science Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/END TEACHER 8-->
 
                 </div>
 
