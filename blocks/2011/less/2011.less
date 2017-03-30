@@ -149,10 +149,6 @@
                 text-decoration: none;
             }
         }
-        .col-md-6, .col-md-12{
-            padding-left: 0px;
-            padding-right: 0px;
-        }
         .btn-style {
             font-size: 16px;
             font-weight: normal;
@@ -170,4 +166,17 @@
         }
     }
     /*form*/
+    @media (min-width: 768px) {
+        .row-content:first-child {
+            padding-left: 0;
+        }
+        .row-content:last-child {
+            padding-right: 0;
+        }
+    }
+    @media (max-width: 767px) {
+        .row-content {
+            padding: 0;
+        }
+    }
 }

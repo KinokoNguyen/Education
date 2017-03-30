@@ -1,20 +1,20 @@
 <?php
-    $url_host = $_SERVER['HTTP_HOST'];
+$url_host = $_SERVER['HTTP_HOST'];
 
-    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-    preg_match_all($pattern_uri, __DIR__, $matches);
+preg_match_all($pattern_uri, __DIR__, $matches);
 
-    $url_path = $url_host . $matches[1][0];
+$url_path = $url_host . $matches[1][0];
 ?>
 
 <div class="type-2011">
     <div class="container">
         <!--button-->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="form-box">
                     <form>
                         <div class="form-body">
@@ -40,18 +40,18 @@
                 </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="form-box">
                     <form>
                         <div class="form-body">
                             <fieldset>
                                 <legend>First time here? Sign up now!</legend>
                                 <div class="row-fluid">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 row-content">
                                         <label>First Name</label>
                                         <input type="text" placeholder="First Name" class="input-block-level">
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-sm-6 col-xs-12 row-content">
                                         <label>Last Name</label>
                                         <input type="text" placeholder="Last Name" class="input-block-level">
                                     </div>
