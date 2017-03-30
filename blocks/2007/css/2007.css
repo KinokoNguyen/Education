@@ -150,6 +150,9 @@
   padding: 10px 20px;
   border: none;
 }
+.type-2007 .form-box .btn-style:hover {
+  background: #1fd1ab;
+}
 @media (min-width: 992px) {
   .form-sign:last-child {
     padding-right: 0;

@@ -129,7 +129,7 @@
   margin: 30px -40px;
 }
 .type-2022 .text ul li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .type-2022 .text ul li a {
   color: #0f1521;

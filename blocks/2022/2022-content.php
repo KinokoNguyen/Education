@@ -21,14 +21,25 @@ $url_path = $url_host . $matches[1][0];
                     </div>                      
                 </div>
                 <div id="bx-pager">
-                    <a data-slide-index="0"><img class="click" src="http://<?php echo $url_path ?>/images/course-detail1.png" alt=""></a>
-                    <a data-slide-index="1"><img class="click" src="http://<?php echo $url_path ?>/images/course-detail2.png" alt=""></a>
-                    <a data-slide-index="2"><img class="click" src="http://<?php echo $url_path ?>/images/course-detail3.png" alt=""></a>
-                    <a data-slide-index="3"><img class="click" src="http://<?php echo $url_path ?>/images/course-detail4.png" alt=""></a>
-                    <a data-slide-index="4"><img class="click" src="http://<?php echo $url_path ?>/images/course-detail1.png" alt=""></a>
-                    <a data-slide-index="5"><img class="click" src="http://<?php echo $url_path ?>/images/course-detail2.png" alt=""></a>
+                    <a data-slide-index="0">
+                        <img class="click" src="http://<?php echo $url_path ?>/images/course-detail1.png" alt="">
+                    </a>
+                    <a data-slide-index="1">
+                        <img class="click" src="http://<?php echo $url_path ?>/images/course-detail2.png" alt="">
+                    </a>
+                    <a data-slide-index="2">
+                        <img class="click" src="http://<?php echo $url_path ?>/images/course-detail3.png" alt="">
+                    </a>
+                    <a data-slide-index="3">
+                        <img class="click" src="http://<?php echo $url_path ?>/images/course-detail4.png" alt="">
+                    </a>
+                    <a data-slide-index="4">
+                        <img class="click" src="http://<?php echo $url_path ?>/images/course-detail1.png" alt="">
+                    </a>
+                    <a data-slide-index="5">
+                        <img class="click" src="http://<?php echo $url_path ?>/images/course-detail2.png" alt="">
+                    </a>
                 </div>
-
             </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="text">
