@@ -1,0 +1,331 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'),
+        url(../fonts/latin1.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Crete Round'), local('CreteRound-Regular'), 
+        url(../fonts/latin2.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'),
+        url(../fonts/latin3.woff2) format('woff2');
+}
+/* latin */
+@font-face {
+    font-family: 'Crete Round';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Crete Round Italic'), local('CreteRound-Italic'), 
+        url(../fonts/latin4.woff2) format('woff2');
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
+
+.ie-module-9{
+
+    position: relative;
+    min-height: 670px;
+    padding: 60px 0px;
+    @media (min-width:1200px){
+        .testimonial-data {
+            padding: 0px 0px 0px 490px !important;
+        }
+        .carousel-control {
+            display: none;
+        }
+    }
+    @media (max-width:1200px) and (min-width:992px){
+        .testimonial-data {
+            padding: 0px 0px 0px 360px !important;
+        }
+        .carousel-control {
+            display: none;
+        }
+    }
+    @media (max-width:992px) and (min-width:768px){
+        .testimonial-data {
+            padding: 0px 0px 0px 280px !important;
+
+            .testimonial-text  {
+                padding: 0 !important;
+                p{
+                    z-index: 999999;
+                    position: relative;
+                }
+
+            }
+
+        }
+        .testimonial-contant #bx-pager {
+            /* margin: 30px 0px 0px 30px; */
+            margin: 10px 20px 10px 30px !important;
+        }
+        .sec-header
+        {
+            h2 {
+                font-size: 32px !important;
+                line-height: 32px !important;
+            }
+            p{
+                font-size: 20px !important;
+            }
+        }
+        .carousel-control {
+            display: none;
+        }
+    }
+
+    @media (max-width:768px){
+        .testimonial-data {
+            padding: 0 !important;
+
+        }
+        .sec-header
+        {
+            h2 {
+                font-size: 22px !important;
+                line-height: 22px !important;
+            }
+            p{
+                font-size: 16px !important;
+            }
+        }
+
+        .testimonial-text {
+
+            p {
+                font-size: 14px !important;
+                line-height: 22px !important;
+            }
+        }
+        .side-imgage {
+            display: none;
+
+        }
+
+        .carousel-control {
+            display: none;
+        }
+    }
+
+    @media (max-width:480px){
+        #bx-pager {
+            display: none !important;
+        }
+        .carousel-control {
+            position: absolute;
+            z-index: 99999;
+            width: 0;
+            color: #000;
+            filter: alpha(opacity=50);
+            opacity: 1;
+            left: 15%;
+            display: block;
+            top: 39%;
+
+        }
+
+        .carousel-inner {
+            position: relative;
+            width: 90%;
+            overflow: hidden;
+            margin-left: 22px;
+        }
+    }
+
+    min-height: 650px;
+
+    text-align: center;
+    #bg5 {
+        background-size: cover;
+        background-image: url(../images/testimonials-bg.jpg);
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+    }
+    #bg5:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .skrollable{
+        position: absolute;
+    }
+
+    .testimonial-contant {
+        z-index: 100;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .sec-header {
+            float: left;
+            width: 100%;
+            padding: 0px 0px 40px 0px;
+            h2 {
+                display: block;
+                font-size: 48px;
+                line-height: 48px;
+                color: #fff;
+                font-family: inherit;
+                font-weight: bold;
+            }
+            p {
+                font-size: 24px;
+                font-family: 'Crete Round',serif;
+                font-style: italic;
+                position: relative;
+                color: #fff;
+                margin: 0 0 10px;
+                display: block;
+            }
+            span{
+                background-color: #fff;
+                height: 10px;
+                width: 10px;
+                display: inline-block;
+                transform: rotate(45deg);
+            }
+        }
+        .side-imgage {
+            position: absolute;
+            left: 0px;
+            bottom:-60px;
+            width: 40%;
+            img {
+                height: auto;
+                vertical-align: middle;
+                border: 0;
+                max-width: 100%;
+            }
+        }
+        #bx-pager {
+            margin: 30px 0px 0px 30px;
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 18px;
+                font-style: italic;
+                margin: 0px;
+                float: left;
+                width: 20%;
+                .color{
+                    color: #00a685;
+                }
+                p {
+                    margin: 0px;
+                    display: block;
+                    -webkit-margin-start: 0px;
+                    -webkit-margin-end: 0px;
+                }
+            }
+            .thumb {
+                img{
+                    -webkit-border-radius: 100%;
+                    height: auto;
+                    max-width: 100%;
+                    vertical-align: middle;
+                    border: 0;
+                }
+                text-decoration: none;
+                -webkit-border-radius: 100%;
+                height: 80px;
+                width: 80px;
+                overflow: hidden;
+                margin: 0px auto 10px auto;
+                border: solid 2px rgba(255,255,255,0.5);
+                padding: 3px;
+            }
+        }
+    }
+    .testimonial-data {
+        float: left;
+        width: 100%;
+        position: relative;
+        z-index: 100;
+        .bx-wrapper {
+            position: relative;
+            margin: 0 auto 0px;
+            padding: 0;
+            .bx-viewport {
+                background-color: transparent;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                height: 272px;
+            }
+        }
+        .testimonial-text:before {
+            position: absolute;
+            content: "";
+            height: 60px;
+            width: 60px;
+            background-color: #fff;
+            border-radius: 100%;
+            left: -30px;
+            top: 50%;
+            margin: -30px 0px 0px 0px;
+        }
+
+        .testimonial-text:after {
+            content: "\f10d";
+            position: absolute;
+            top: 50%;
+            left: -15px;
+            font-family: FontAwesome;
+            font-size: 34px;
+            margin: -21px 0px 0px 0px;
+        }
+
+
+        .testimonial-text {
+            float: left;
+            text-align: center;
+            background-color: #fff;
+            position: relative;
+            margin: 50px;
+            p {
+                font-size: 18px;
+                color: #101010;
+                font-style: italic;
+                line-height: 35px;
+                margin: 30px;
+            }
+            a {
+                text-decoration: none;
+                font-family: 'Pacifico',cursive;
+                font-size: 30px;
+                color: #00a685;
+            }
+        }
+
+    }
+}
+
+
+
