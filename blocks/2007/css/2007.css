@@ -136,10 +136,6 @@
   resize: none;
   height: auto;
 }
-.type-2007 .form-box .col-md-6,
-.type-2007 .form-box .col-md-12 {
-  padding-left: 0;
-}
 .type-2007 .form-box .btn-style {
   margin-right: 15px;
   float: right;
@@ -154,6 +150,21 @@
   padding: 10px 20px;
   border: none;
 }
-.type-2007 .form-box .btn-style:hover {
-  background: #1fd1ab;
+@media (min-width: 992px) {
+  .form-sign:last-child {
+    padding-right: 0;
+  }
+  .form-sign:first-child {
+    padding-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .form-sign {
+    padding: 0;
+  }
+}
+@media (min-width: 692px) {
+  .footer .form-sign {
+    padding-right: 15px;
+  }
 }

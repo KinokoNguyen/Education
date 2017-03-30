@@ -135,9 +135,7 @@
             resize: none;
             height: auto;
         }
-        .col-md-6, .col-md-12{
-            padding-left: 0;
-        }
+
         .btn-style {
             margin-right: 15px;
             float: right;
@@ -158,4 +156,25 @@
     }
     /*form*/
 
+} 
+@media (min-width: 992px){
+    .form-sign:last-child{
+        padding-right: 0;
+    }
+    .form-sign:first-child{
+        padding-left: 0;
+    }
+}
+@media (max-width:991px){
+    .form-sign{
+        padding: 0;
+    }
+}
+
+@media (min-width: 692px){
+    .footer{
+        .form-sign{
+            padding-right: 15px;
+        }
+    }
 }

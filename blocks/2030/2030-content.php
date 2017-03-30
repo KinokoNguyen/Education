@@ -48,22 +48,22 @@
                             <div class="row-fluid">
                                 <div class="col-md-4 col-sm-4 col-xs-12 text-content">
                                     <div class="row">
-                                        <input type="text" placeholder=" Name" class=" ">
+                                        <input type="text" placeholder="Name" class=" ">
                                     </div>                                          
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12 text-content">
                                     <div class="row">
-                                        <input type="text" placeholder=" E-mail" class=" ">
+                                        <input type="text" placeholder="E-mail" class=" ">
                                     </div>
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12 text-content">
                                     <div class="row">
-                                        <input type="text" placeholder=" Website" class=" ">
+                                        <input type="text" placeholder="Website" class=" ">
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <div class="row">
-                                        <textarea placeholder=" Comments" class=""></textarea>
+                                        <textarea placeholder="Comments" class=""></textarea>
                                         <button class="btn-style">Submit</button>
                                     </div>
                                 </div>
