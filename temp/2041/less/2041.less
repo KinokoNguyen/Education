@@ -40,7 +40,10 @@
 } 
 
 .type-2041{
-
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+    
+    
     position: relative;
     min-height: 670px;
     padding: 40px 0px;
@@ -130,7 +133,7 @@
                 float: left;
                 width: 20%;
                 .color{
-                    color: #00a685;
+                    color: @color_green;
                 }
                 p {
                     margin: 0px;
@@ -149,6 +152,7 @@
                 }
                 img:hover{
                     cursor: pointer;
+                    opacity: 0.7;
                 }
                 text-decoration: none;
                 -webkit-border-radius: 100%;
@@ -218,8 +222,11 @@
                 text-decoration: none;
                 font-family: 'Pacifico',cursive;
                 font-size: 30px;
-                color: #00a685;
+                color: @color_green;
                 margin-bottom: 15px;
+            }
+            a:hover{
+                color: #005580;
             }
         }
 

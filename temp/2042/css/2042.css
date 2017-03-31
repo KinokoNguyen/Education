@@ -62,6 +62,9 @@
   width: 100%;
   margin: 0px 0px 15px 0px;
 }
+.type-2042 .form .student-form .form-data button:hover {
+  background-color: #1fd1ad;
+}
 .type-2042 .form .student-form .form-data button {
   display: inline-block;
   padding: 10px 30px;

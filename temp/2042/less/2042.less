@@ -1,6 +1,8 @@
 
 .type-2042{ 
-   
+    @color_hover: #1fd1ad;
+    @color_green: #00a685;
+
     .form{
         text-align: center;
         .form-contant {
@@ -34,7 +36,7 @@
                 font-weight: normal;
             }
             .header p{
-                color: #00a685;
+                color: @color_green;
                 font-size: 18px;
                 font-family: 'Crete Round',serif;
                 line-height: 26px;
@@ -50,7 +52,7 @@
                 border-radius: 0px;
                 border: none;
                 padding: 6px 20px;
-                outline: 1px solid #00a685;
+                outline: 1px solid @color_green;
                 margin-bottom: 10px;
             }
             .form-data ul {
@@ -63,16 +65,21 @@
                 width: 100%;
                 margin: 0px 0px 15px 0px;
             }
-            .form-data button {
-                display: inline-block;
-                padding: 10px 30px;
-                color: #fff;
-                font-size: 14px;
-                border-radius: 5px;
-                border: none;
-                float: right;
-                background-color: #00a685;
+            .form-data{
+                button:hover{
+                    background-color: @color_hover;
+                }
+                button {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    color: #fff;
+                    font-size: 14px;
+                    border-radius: 5px;
+                    border: none;
+                    float: right;
+                    background-color: @color_green;
 
+                }
             }
         }
     }

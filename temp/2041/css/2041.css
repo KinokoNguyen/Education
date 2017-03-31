@@ -146,6 +146,7 @@
 }
 .type-2041 .testimonial-contant #bx-pager .thumb img:hover {
   cursor: pointer;
+  opacity: 0.7;
 }
 .type-2041 .testimonial-data {
   float: left;
@@ -205,6 +206,9 @@
   font-size: 30px;
   color: #00a685;
   margin-bottom: 15px;
+}
+.type-2041 .testimonial-data .testimonial-text a:hover {
+  color: #005580;
 }
 @media (min-width: 1200px) {
   .testimonial-data {
