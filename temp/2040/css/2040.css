@@ -23,6 +23,11 @@
   src: local('Crete Round Italic'), local('CreteRound-Italic'), url(../fonts/latin4.woff2) format('woff2');
 }
 .type-2040 {
+  background-size: cover;
+  background-image: url(../images/ipad.png);
+  z-index: 0;
+  background-position: 0px -597.423px;
+  text-align: center;
   background-color: #00a685;
 }
 .type-2040 * {
@@ -35,11 +40,6 @@
 }
 .type-2040 .ie-pg {
   padding-top: 60px;
-  background-size: cover;
-  background-image: url(../images/ipad.png);
-  z-index: 0;
-  background-position: 0px -597.423px;
-  text-align: center;
 }
 .type-2040 .ie-pg .post-contant {
   position: relative;
