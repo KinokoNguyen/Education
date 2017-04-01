@@ -58,14 +58,12 @@
 }
 .type-2040 .ie-pg .post-contant .sec-header h2 {
   display: block;
-  font-size: 48px;
   line-height: 48px;
   color: #fff;
   font-family: inherit;
   font-weight: bold;
 }
 .type-2040 .ie-pg .post-contant .sec-header p {
-  font-size: 24px;
   font-family: 'Crete Round', serif;
   font-style: italic;
   position: relative;
@@ -237,6 +235,14 @@
 .type-2040 .ie-pg .post-contant .post:hover .thumb .black {
   bottom: 0;
 }
+@media (min-width: 992px) {
+  .sec-header h2 {
+    font-size: 48px;
+  }
+  .sec-header p {
+    font-size: 24px;
+  }
+}
 @media (max-width: 992px) and (min-width: 768px) {
   .thumb {
     height: 100px !important;
@@ -252,10 +258,25 @@
   .post .header {
     margin: 30px 0 !important;
   }
+  .sec-header h2 {
+    font-size: 45px;
+  }
+  .sec-header p {
+    font-size: 20px;
+  }
 }
 @media (max-width: 767px) {
   .post {
     margin: 30px 0 70px 0 !important;
+  }
+  .sec-header {
+    margin-bottom: 20px;
+  }
+  .sec-header h2 {
+    font-size: 36px;
+  }
+  .sec-header p {
+    font-size: 18px;
   }
 }
 @media (max-width: 480px) {
@@ -268,5 +289,11 @@
   }
   .header .post-date {
     float: none !important;
+  }
+  .sec-header h2 {
+    font-size: 30px;
+  }
+  .sec-header p {
+    font-size: 15px;
   }
 }

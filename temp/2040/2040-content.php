@@ -22,7 +22,7 @@ $url_path = $url_host . $matches[1][0];
                     <span></span>
                     <span></span>
                 </div>
-                <div class="row">
+                <div class="">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-12">
