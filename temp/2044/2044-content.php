@@ -1,3 +1,16 @@
+<?php
+$url_host = $_SERVER['HTTP_HOST'];
+
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+
+$url_path = $url_host . $matches[1][0];
+?>
+
+
 <div class="type-2044">  
     <!--Begin Follow-->
     <div class="follow-us">
@@ -63,9 +76,9 @@
                         <h2>Our Articles</h2>
                         <div class="widget widget-slider" id="myCarousel">
                             <div id="owl-demo" class="owl-carousel">
-                                <div class="item"><img src="images/article.jpg" alt="The Last of us"></div>
-                                <div class="item"><img src="images/article.jpg" alt="The Last of us"></div>
-                                <div class="item"><img src="images/article.jpg" alt="The Last of us"></div>
+                                <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
+                                <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
+                                <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
                             </div>
                         </div>
 
@@ -83,7 +96,7 @@
                             <ul>
                                 <li>
                                     <div class="thumb">
-                                        <a href="#"><img src="images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Business Plan Buil a Business Plan..</p>
@@ -92,7 +105,7 @@
                                 </li>
                                 <li>
                                     <div class="thumb">
-                                        <a href="#"><img src="images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Business Plan Buil a Business Plan..</p>
@@ -101,7 +114,7 @@
                                 </li>
                                 <li>
                                     <div class="thumb">
-                                        <a href="#"><img src="images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Business Plan Buil a Business Plan..</p>
@@ -118,7 +131,7 @@
                             <ul>
                                 <li>
                                     <div class="thumb">
-                                        <a href="#"><img src="images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>Trusted Certificate</p>
@@ -127,7 +140,7 @@
                                 </li>
                                 <li>
                                     <div class="thumb">
-                                        <a href="#"><img src="images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>1200 Video Lessons</p>
@@ -136,7 +149,7 @@
                                 </li>
                                 <li>
                                     <div class="thumb">
-                                        <a href="#"><img src="images/toprated.jpg" alt=""></a>
+                                        <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
                                         <p>1200 Video Lessons</p>
@@ -243,7 +256,7 @@
                         <div class="widget widget-facebook">
                             <h2>Fcebook</h2>
                             <div class="pull-left">
-                                <img src="images/facebook-widget.jpg" alt="" class="img-responsive">
+                                <img src="http://<?php echo $url_path ?>/images/facebook-widget.jpg" alt="" class="img-responsive">
                             </div>
                         </div>
                     </div>

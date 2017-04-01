@@ -15,16 +15,16 @@
         <!--SLIDER-->
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="images/banner1.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/images/banner1.jpg" class="img-responsive">
             </div>
             <div class="swiper-slide">
-                <img src="images/banner2.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/images/banner2.jpg" class="img-responsive">
             </div>
             <div class="swiper-slide">
-                <img src="images/banner3.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/images/banner3.jpg" class="img-responsive">
             </div>
             <div class="swiper-slide">
-                <img src="images/banner4.jpg" class="img-responsive">
+                <img src="http://<?php echo $url_path ?>/images/banner4.jpg" class="img-responsive">
             </div>
         </div>
         <!--/END SLIDER-->
