@@ -72,15 +72,15 @@ $url_path = $url_host . $matches[1][0];
         <!--MENU-->
         <nav class="navbar navbar-default">
             <div class="container">
-                <div class="navbar-header">
-                    <!--LOGO-->
-                    <div class="logo">
-                        <a href="#">
-                            <a href="index.html"><img src="images/logo.png" alt=""></a>
-                        </a>
-                    </div>
-                    <!--/END LOGO-->
+
+                <!--LOGO-->
+                <div class="logo">
+                    <a href="#">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </a>
                 </div>
+                <!--/END LOGO-->
+
                 <!--CART-->
                 <div class="cart">
                     <ul>
@@ -106,7 +106,7 @@ $url_path = $url_host . $matches[1][0];
                         <li><i class="fa fa-star"></i><span>3</span></li>
                     </ul>
                 </div>
-                <!--/END CART-->
+                
                 <div class="navbar-header">
                     <!--BUTTON TOGGLE-->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -117,7 +117,6 @@ $url_path = $url_host . $matches[1][0];
                     </button>
                     <!--/END BUTTON TOGGLE-->
                 </div>
-
                 <!--COLLAPSE-->
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -169,13 +168,17 @@ $url_path = $url_host . $matches[1][0];
                                 <li><a href="#">Student Profile</a></li>
                                 <li><a href="#">Teacher Profile</a></li>
                                 <li><a href="#">Our Team</a></li>
-                                <li><a href="#">Edit Your Profile</a></li>
+                             
                             </ul>
                         </li>
                         <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
                 <!--/END COLLAPSE-->
+                <!--/END CART-->
+
+                
+
 
             </div>
         </nav>

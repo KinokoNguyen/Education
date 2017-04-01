@@ -67,7 +67,7 @@
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 160px;
+  min-width: 190px;
   padding: 0;
   margin: 2px 0 0;
   border-radius: 0px;
@@ -98,7 +98,7 @@
   list-style: none;
 }
 .type-2034 .cart ul li {
-  padding: 20px 20px;
+  padding: 20px;
   float: left;
   border-left: solid 1px #e6e6e6;
   position: relative;
@@ -175,6 +175,10 @@
 .type-2034 .color {
   color: #00a685;
 }
+.type-2034 .logo {
+  float: left;
+  margin-top: 10px;
+}
 .type-2034 .navbar-header {
   margin-top: 10px;
   text-align: center;
@@ -192,11 +196,8 @@
   color: #fff;
   background-color: #00a685;
 }
-.type-2034 .navbar-default .navbar-collapse {
-  float: right;
-}
-.type-2034 .navbar-default .navbar-collapse .navbar-nav li a {
-  padding: 27px 15px;
+.type-2034 .navbar-default .navbar-collapse .navbar-nav li ul {
+  padding: 5px;
 }
 .type-2034 .navbar-default .navbar-collapse .navbar-nav li ul li a {
   padding: 6px 10px;
@@ -207,14 +208,27 @@
   background-color: #00a685;
 }
 @media (min-width: 1200px) {
-  .type-2034 .logo {
-    width: auto;
+  .type-2034 .navbar-collapse {
+    float: right;
   }
   .type-2034 .cart ul li {
     padding: 27px 20px;
   }
   .type-2034 .search-box input[type="text"] {
     min-height: 50px;
+  }
+  .type-2034 .navbar-collapse .navbar-nav li a {
+    padding: 27px 15px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 979px) {
+  .type-2034 .logo {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .type-2034 .navbar-collapse .navbar-nav li a {
+    padding: 20px 15px;
   }
 }
 @media (max-width: 1080) {
@@ -236,8 +250,28 @@
     right: 0;
     top: 100%;
   }
+  .type-2034 .logo {
+    text-align: center;
+    width: 100%;
+  }
+  .type-2034 .cart {
+    width: 100%;
+  }
+  .type-2034 .cart ul {
+    float: right;
+  }
+  .type-2034 .cart ul li {
+    padding: 20px 20px 10px 20px;
+  }
   .type-2034 .navbar-default .navbar-collapse {
-    float: left;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 16px 0px 0px 0px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .type-2034 .navbar-default .navbar-collapse .navbar-nav li a {
+    padding: 5px 10px;
   }
 }
 @media (max-width: 480px) {
@@ -257,16 +291,6 @@
   }
   .type-2034 .dropdown {
     float: none;
-  }
-  .type-2034 .navbar-default .navbar-collapse {
-    width: 100%;
-    background-color: #f0f0f0;
-    margin: 16px 0px 0px 0px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  .type-2034 .navbar-default .navbar-collapse .navbar-nav li a {
-    padding: 5px 10px;
   }
   .type-2034 .account {
     text-align: center;

@@ -71,7 +71,7 @@
         z-index: 1000;
         display: none;
         float: left;
-        min-width: 160px;
+        min-width: 190px;
         padding: 0;
         margin: 2px 0 0;
         border-radius: 0px;
@@ -89,7 +89,6 @@
             color: #ffffff;
         }
     }
-
     .logo {
         img {
             height: auto;
@@ -103,7 +102,7 @@
         ul {
             list-style: none;
             li {
-                padding: 20px 20px;
+                padding: 20px;
                 float: left;
                 border-left: solid 1px #e6e6e6;
                 position: relative;
@@ -182,7 +181,10 @@
     .color {
         color: #00a685;
     }
-
+    .logo{
+        float: left;
+        margin-top: 10px;
+    }
     /*MENU COLAPPLE*/
     .navbar-header {
         margin-top: 10px;
@@ -201,15 +203,14 @@
             color: #fff;
             background-color: #00a685;
         }
-        .navbar-collapse {
-            float: right;
-        }
-        .navbar-collapse .navbar-nav li a {
-            padding: 27px 15px;
+        
+        .navbar-collapse .navbar-nav li ul{
+            padding: 5px;
         }
         .navbar-collapse .navbar-nav li ul li a {
             padding: 6px 10px;
             color: #000;
+            
         }
         .navbar-collapse .navbar-nav li ul li a:hover {
             color: #fff;
@@ -218,14 +219,27 @@
     }
 
     @media (min-width: 1200px) {
-        .logo {
-            width: auto;
+        .navbar-collapse {
+            float: right;
         }
         .cart ul li {
             padding: 27px 20px;
         }
         .search-box input[type="text"] {
             min-height: 50px;
+        }
+        .navbar-collapse .navbar-nav li a {
+            padding: 27px 15px;
+        }
+    }
+    @media (max-width: 1200px) and (min-width: 979px){
+        .logo {
+            text-align: center;
+            width: 100%;   
+            margin-bottom: 10px;
+        }
+        .navbar-collapse .navbar-nav li a {
+            padding: 20px 15px;
         }
     }
     @media (max-width: 1080) {
@@ -240,6 +254,7 @@
         .search-box {
             min-width: 400px;
         }
+        
     }
     @media (max-width: 767px) {
         .search-box {
@@ -249,7 +264,32 @@
         }
         .navbar-default {
             .navbar-collapse {
-                float: left; 
+/*                float: left; */
+            }
+        }
+        .logo {
+            text-align: center;
+            width: 100%;          
+        }
+        .cart{
+            width: 100%;
+            ul{
+                float: right;
+                li{
+                    padding: 20px 20px 10px 20px;
+                }
+            }
+        }
+        .navbar-default {
+            .navbar-collapse {
+                width: 100%;
+                background-color: #f0f0f0;
+                margin: 16px 0px 0px 0px;
+                border-radius: 5px;
+                margin-bottom: 10px;
+                .navbar-nav li a {
+                    padding: 5px 10px;
+                }
             }
         }
     }
@@ -271,18 +311,7 @@
         .dropdown {
             float: none;
         }
-        .navbar-default {
-            .navbar-collapse {
-                width: 100%;
-                background-color: #f0f0f0;
-                margin: 16px 0px 0px 0px;
-                border-radius: 5px;
-                margin-bottom: 10px;
-                .navbar-nav li a {
-                    padding: 5px 10px;
-                }
-            }
-        }
+        
         .account {
             text-align: center;
             float: none;
