@@ -6,7 +6,6 @@
         overflow: hidden;
         z-index: 1;
         width: 100%;
-        height: 100%;
     }
     .swiper-container:before {
         content: "";
@@ -21,7 +20,6 @@
     .swiper-wrapper {
         position: relative;
         width: 100%;
-        height: 100%;
         z-index: 1;
         display: flex;
         box-sizing: content-box;
@@ -30,12 +28,10 @@
     .swiper-slide {
         flex-shrink: 0;
         width: 100%;
-        height: 100%;
         position: relative;
         text-align: center;
         font-size: 18px;
         background: #fff;
-        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -45,6 +41,7 @@
         position: relative;
         width: 100%;
         z-index: 100;
+        margin-bottom: 15px;
         .swiper-pagination-bullet {
             background-color: #666;
             margin: 0 5px;
@@ -118,7 +115,7 @@
 
     @media (max-width:768px){
         .newsletters{
-            top: 30% !important;
+            top: 60% !important;
             h1{
                 font-size: 30px !important;
                 line-height: 30px !important;
@@ -152,7 +149,7 @@
     }
     @media(min-width:992px){
         .newsletters{
-            top: 40%;
+            top: 250px;
             h1{
                 font-size: 72px;
                 line-height: 72px;
@@ -166,7 +163,7 @@
     }
     @media(max-width:1010px) {
         .newsletters{
-            top: 30%;
+            top: 45%;
             h1{
                 font-size: 40px;
                 line-height: 42px;
