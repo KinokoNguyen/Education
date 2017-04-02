@@ -29,7 +29,6 @@ $url_path = $url_host . $matches[1][0];
                             <li><a href="#">Arabic</a></li>
                         </ul>
                     </li>
-                    
                     <!--CURRENCY-->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" id="currency" data-toggle="dropdown" role="button">
@@ -110,7 +109,7 @@ $url_path = $url_host . $matches[1][0];
                 
                 <div class="navbar-header">
                     <!--BUTTON TOGGLE-->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -118,12 +117,11 @@ $url_path = $url_host . $matches[1][0];
                     </button>
                     <!--/END BUTTON TOGGLE-->
                 </div>
-                
                 <!--COLLAPSE-->
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Home</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Home Page Default</a></li>
                                 <li><a href="#">Home Page 1</a></li>
@@ -134,7 +132,7 @@ $url_path = $url_host . $matches[1][0];
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Blog</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Blog Detail</a></li>
@@ -142,21 +140,21 @@ $url_path = $url_host . $matches[1][0];
                         </li>
                         <li><a href="#">Services</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Event</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Events</a></li>
                                 <li><a href="#">Event Detail</a></li>   
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Courses</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">Courses</a></li>
                                 <li><a href="#">Course Detail</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Pages</a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                             <ul class="dropdown-menu">
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Error 404</a></li>
@@ -169,7 +167,8 @@ $url_path = $url_host . $matches[1][0];
                                 <li><a href="#">Student Login</a></li>
                                 <li><a href="#">Student Profile</a></li>
                                 <li><a href="#">Teacher Profile</a></li>
-                                <li><a href="#">Our Team</a></li>                            
+                                <li><a href="#">Our Team</a></li>
+                             
                             </ul>
                         </li>
                         <li><a href="#">Contact Us</a></li>
@@ -177,6 +176,10 @@ $url_path = $url_host . $matches[1][0];
                 </div>
                 <!--/END COLLAPSE-->
                 <!--/END CART-->
+
+                
+
+
             </div>
         </nav>
         <!--/END MENU-->

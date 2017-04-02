@@ -6,6 +6,14 @@
     src: local('Crete Round Italic'), local('CreteRound-Italic'), 
         url(../fonts/latin4.woff2) format('woff2');
 }
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+} 
 .type-2034 {
     .top-strip {
         float: left;
@@ -135,7 +143,7 @@
         float: left;
         right: 100%;
         top: 0px;
-        min-width: 720px;
+        min-width: 700px;
         position: absolute;
         padding: 11px;
         margin: 0;
@@ -195,14 +203,14 @@
             color: #fff;
             background-color: #00a685;
         }
-
+        
         .navbar-collapse .navbar-nav li ul{
             padding: 5px;
         }
         .navbar-collapse .navbar-nav li ul li a {
             padding: 6px 10px;
             color: #000;
-
+            
         }
         .navbar-collapse .navbar-nav li ul li a:hover {
             color: #fff;
@@ -244,15 +252,20 @@
             border: none;
         }
         .search-box {
-            min-width: 380px;
+            min-width: 400px;
         }
-
+        
     }
     @media (max-width: 767px) {
         .search-box {
-            width: 100%;
+            min-width: 280px;
             right: 0;
             top: 100%;
+        }
+        .navbar-default {
+            .navbar-collapse {
+/*                float: left; */
+            }
         }
         .logo {
             text-align: center;
@@ -278,9 +291,12 @@
                     padding: 5px 10px;
                 }
             }
-            .navbar-toggle {
-                margin-right: 25px;
-            }
+        }
+        .open .dropdown-menu{
+            background-color: #fff;
+        }
+        .navbar-nav{
+            margin: 0 -15px;
         }
     }
     @media (max-width:480px){
@@ -301,7 +317,7 @@
         .dropdown {
             float: none;
         }
-
+        
         .account {
             text-align: center;
             float: none;
@@ -327,10 +343,10 @@
             }
         }
         .search-box {
-            min-width: 300px;
+            min-width: 280px;
             right: 0;
             top: 100%;
-            right: -50px;
+            left: -180%;
         }
     }
 }

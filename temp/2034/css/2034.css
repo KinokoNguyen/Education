@@ -273,6 +273,12 @@
   .type-2034 .navbar-default .navbar-collapse .navbar-nav li a {
     padding: 5px 10px;
   }
+  .type-2034 .open .dropdown-menu {
+    background-color: #fff;
+  }
+  .type-2034 .navbar-nav {
+    margin: 0 -15px;
+  }
 }
 @media (max-width: 480px) {
   .type-2034 .language {

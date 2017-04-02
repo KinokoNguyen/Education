@@ -78,4 +78,5 @@ $url_path = $url_host . $matches[1][0];
             </div>
         </section> 
     </div>
+    <div class="clearfix"></div>
 </div>

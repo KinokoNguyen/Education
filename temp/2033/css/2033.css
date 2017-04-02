@@ -90,6 +90,7 @@
   background-color: #00a685;
   bottom: -15px;
   margin: auto;
+  transition: width 0.5s;
 }
 .type-2033 .services:hover .text h3:before {
   width: 100%;

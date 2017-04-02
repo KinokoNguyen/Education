@@ -13,6 +13,15 @@ $url_path = $url_host . $matches[1][0];
 
 <div class="type-2039">
     <div class="container">
+
+        <div class="sec-header">
+            <h2>Latest Courses</h2>
+            <p>Check Our Featured Courses</p>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+
         <div class="row">
             <ul class="nav nav-tabs ie-tab-fix">
                 <li class="active"><a data-toggle="tab" href="#home" > <i class="fa fa-book"></i>
