@@ -13,7 +13,6 @@ $url_path = $url_host . $matches[1][0];
 
 <div class="type-2039">
     <div class="container">
-
         <div class="sec-header">
             <h2>Latest Courses</h2>
             <p>Check Our Featured Courses</p>
@@ -21,7 +20,6 @@ $url_path = $url_host . $matches[1][0];
             <span></span>
             <span></span>
         </div> 
-
         <div class="row">
             <ul class="nav nav-tabs ie-tab-fix">
                 <li class="active"><a data-toggle="tab" href="#home" > <i class="fa fa-book"></i>
@@ -42,469 +40,468 @@ $url_path = $url_host . $matches[1][0];
         </div>
     </div>
     <div class="container-fluid content-tab">
-
         <div class="container">
-            <div class="row">
-                <div class="tab-content ie-content-fix">
-                    <div id="home" class="tab-pane fade in active">
-                        <ul class="course-topics row">
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+
+            <div class="tab-content ie-content-fix">
+                <div id="home" class="tab-pane fade in active">
+                    <ul class="course-topics row">
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
 
 
-                    <div id="home2" class="tab-pane fade in">
-                        <ul class="course-topics row">
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
+                <div id="home2" class="tab-pane fade in">
+                    <ul class="course-topics row">
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
 
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
 
-                    <div id="home3" class="tab-pane fade in">
-                        <ul class="course-topics row">
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>                                             
-                        </ul>
-                    </div>
+                <div id="home3" class="tab-pane fade in">
+                    <ul class="course-topics row">
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>                                             
+                    </ul>
+                </div>
 
-                    <div id="home4" class="tab-pane fade in">
-                        <ul class="course-topics row">
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>   
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
+                <div id="home4" class="tab-pane fade in">
+                    <ul class="course-topics row">
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>   
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
 
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
 
-                    <div id="home5" class="tab-pane fade in">
-                        <ul class="course-topics row">
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>   
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>                                                                  
-                        </ul>
-                    </div>
+                <div id="home5" class="tab-pane fade in">
+                    <ul class="course-topics row">
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>   
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>                                                                  
+                    </ul>
+                </div>
 
-                    <div id="home6" class="tab-pane fade in">
-                        <ul class="course-topics row">
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>   
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>   
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>                                                               
-                        </ul>
-                    </div>
+                <div id="home6" class="tab-pane fade in">
+                    <ul class="course-topics row">
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>   
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>   
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>                                                               
+                    </ul>
+                </div>
 
-                    <div id="home7" class="tab-pane fade in">
-                        <ul class="course-topics row">
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>  
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>   
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>   
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>
-                            <li class="col-md-4 col-sm-4 col-xs-6 col-12">
-                                <div class="thumb">
-                                    <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
-                                </div>
-                                <div class="text">
-                                    <h4>HTML5 Programming</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-                                    <span>$ 199</span>
-                                </div>
-                            </li>                                                             
-                        </ul>
-                    </div>
+                <div id="home7" class="tab-pane fade in">
+                    <ul class="course-topics row">
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic1.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>  
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic2.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>   
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic3.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic4.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>   
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic5.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-4 col-xs-6 col-12">
+                            <div class="thumb">
+                                <a href="#"><img src="http://<?php echo $url_path ?>/images/topic6.jpg" alt=""></a>
+                            </div>
+                            <div class="text">
+                                <h4>HTML5 Programming</h4>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                <span>$ 199</span>
+                            </div>
+                        </li>                                                             
+                    </ul>
                 </div>
             </div>
+
         </div>
     </div>
 

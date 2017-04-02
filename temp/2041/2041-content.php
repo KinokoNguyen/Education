@@ -21,7 +21,7 @@ $url_path = $url_host . $matches[1][0];
         </div>
         <div id="main_area">
             <!-- Slider -->
-            <div class="row">
+            <div class="">
                 <div class="" id="slider">
                     <!-- Top part of the slider -->
                     <div class="">
@@ -122,6 +122,7 @@ $url_path = $url_host . $matches[1][0];
          data-end="background-position:0px -1800px;" 
          class="skrollable skrollable-between" 
          style="background-position: 0px -1341.35px;">
+        <div class="clearfix"></div>
     </div>
 
 </div>

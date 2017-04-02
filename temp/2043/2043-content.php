@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 ?>
 <div class="type-2043">
     <div class="container">
-        <div class="row">
+        <div class="">
             <div class="content">
                 <div class="sec-header">
                     <h2>Latest Courses</h2>
