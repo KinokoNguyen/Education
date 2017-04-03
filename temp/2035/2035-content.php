@@ -39,7 +39,7 @@
                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
-                                <div class="thumb">
+                                <div class="thumb-teacher">
                                     <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" class="img-responsive" alt=""></a>
                                 </div>
                                 <div class="text">
@@ -61,7 +61,7 @@
                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
-                                <div class="thumb">
+                                <div class="thumb-teacher">
                                     <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
@@ -83,7 +83,7 @@
                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
-                                <div class="thumb">
+                                <div class="thumb-teacher">
                                     <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
@@ -105,7 +105,7 @@
                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-vimeo-square"></i></a>
                                 </div>
-                                <div class="thumb">
+                                <div class="thumb-teacher">
                                     <a href="#"><img src="http://<?php echo $url_path ?>/images/teachers4.jpg" alt=""></a>
                                 </div>
                                 <div class="text">
