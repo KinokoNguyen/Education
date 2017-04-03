@@ -95,7 +95,7 @@ $url_path = $url_host . $matches[1][0];
                             <h2>Top Rated Courses</h2>
                             <ul>
                                 <li>
-                                    <div class="thumb">
+                                    <div class="thumb-footer">
                                         <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
@@ -104,7 +104,7 @@ $url_path = $url_host . $matches[1][0];
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="thumb">
+                                    <div class="thumb-footer">
                                         <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
@@ -113,7 +113,7 @@ $url_path = $url_host . $matches[1][0];
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="thumb">
+                                    <div class="thumb-footer">
                                         <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
@@ -130,7 +130,7 @@ $url_path = $url_host . $matches[1][0];
                             <h2>Recent Reviews</h2>
                             <ul>
                                 <li>
-                                    <div class="thumb">
+                                    <div class="thumb-footer">
                                         <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
@@ -139,7 +139,7 @@ $url_path = $url_host . $matches[1][0];
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="thumb">
+                                    <div class="thumb-footer">
                                         <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
@@ -148,7 +148,7 @@ $url_path = $url_host . $matches[1][0];
                                     </div>
                                 </li>
                                 <li>
-                                    <div class="thumb">
+                                    <div class="thumb-footer">
                                         <a href="#"><img src="http://<?php echo $url_path ?>/images/toprated.jpg" alt=""></a>
                                     </div>
                                     <div class="text">
