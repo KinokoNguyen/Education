@@ -15,7 +15,7 @@ $url_path = $url_host . $matches[1][0];
     <div class="container ie-pg">
         <div class="row">
             <div class="post-contant">
-                <div class="sec-header">
+                <div class="sec-header-server">
                     <h2>Popular Posts</h2>
                     <p>Latest From Blog</p>
                     <span></span>
@@ -33,7 +33,7 @@ $url_path = $url_host . $matches[1][0];
                                         <div class="black"></div>
                                     </div>
 
-                                    <div class="header">
+                                    <div class="header-server">
 
                                         <div class="post-date">
                                             <p>May<span>11</span>2014</p>
@@ -64,7 +64,7 @@ $url_path = $url_host . $matches[1][0];
                                         <div class="black"></div>
                                     </div>
 
-                                    <div class="header">
+                                    <div class="header-server">
 
                                         <div class="post-date">
                                             <p>May<span>11</span>2014</p>

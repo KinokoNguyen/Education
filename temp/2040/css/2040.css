@@ -38,7 +38,7 @@
   z-index: 10;
   min-height: 580px;
 }
-.type-2040 .ie-pg .post-contant .sec-header {
+.type-2040 .ie-pg .post-contant .sec-header-server {
   z-index: 50;
   top: 0;
   left: 0;
@@ -46,14 +46,14 @@
   background: url(../images/p-bg1.png) repeat 0 0;
   padding: 0px 0px 40px 0px;
 }
-.type-2040 .ie-pg .post-contant .sec-header h2 {
+.type-2040 .ie-pg .post-contant .sec-header-server h2 {
   display: block;
   line-height: 48px;
   color: #fff;
   font-family: inherit;
   font-weight: bold;
 }
-.type-2040 .ie-pg .post-contant .sec-header p {
+.type-2040 .ie-pg .post-contant .sec-header-server p {
   font-family: 'Crete Round', serif;
   font-style: italic;
   position: relative;
@@ -61,7 +61,7 @@
   margin: 0 0 10px;
   display: block;
 }
-.type-2040 .ie-pg .post-contant .sec-header span {
+.type-2040 .ie-pg .post-contant .sec-header-server span {
   background-color: #fff;
   height: 10px;
   width: 10px;
@@ -125,27 +125,27 @@
   bottom: -72px;
   padding: 13px 0px;
 }
-.type-2040 .ie-pg .post-contant .post .header {
+.type-2040 .ie-pg .post-contant .post .header-server {
   float: left;
   width: 100%;
   margin: 0px 0px 20px 0px;
 }
-.type-2040 .ie-pg .post-contant .post .header .post-date {
+.type-2040 .ie-pg .post-contant .post .header-server .post-date {
   float: left;
 }
-.type-2040 .ie-pg .post-contant .post .header .post-date p {
+.type-2040 .ie-pg .post-contant .post .header-server .post-date p {
   margin: 0px;
   font-size: 18px;
   font-weight: 600;
 }
-.type-2040 .ie-pg .post-contant .post .header .post-date p span {
+.type-2040 .ie-pg .post-contant .post .header-server .post-date p span {
   margin: 0px 4px;
   color: #00a685;
 }
-.type-2040 .ie-pg .post-contant .post .header .icons {
+.type-2040 .ie-pg .post-contant .post .header-server .icons {
   float: right;
 }
-.type-2040 .ie-pg .post-contant .post .header .icons #notification-counter {
+.type-2040 .ie-pg .post-contant .post .header-server .icons #notification-counter {
   position: absolute;
   top: -5px;
   left: 18px;
@@ -155,25 +155,25 @@
   padding: 3px 3px;
   font: 8px Verdana;
 }
-.type-2040 .ie-pg .post-contant .post .header .icons ul {
+.type-2040 .ie-pg .post-contant .post .header-server .icons ul {
   list-style: none;
 }
-.type-2040 .ie-pg .post-contant .post .header .icons ul ol {
+.type-2040 .ie-pg .post-contant .post .header-server .icons ul ol {
   padding: 0;
   margin: 0;
 }
-.type-2040 .ie-pg .post-contant .post .header .icons ul li {
+.type-2040 .ie-pg .post-contant .post .header-server .icons ul li {
   margin: 0px 10px;
   position: relative;
   line-height: 20px;
   display: inline-block;
 }
-.type-2040 .ie-pg .post-contant .post .header .icons ul li a {
+.type-2040 .ie-pg .post-contant .post .header-server .icons ul li a {
   font-size: 25px;
   color: #00a685;
   font-weight: bold;
 }
-.type-2040 .ie-pg .post-contant .post .header .icons ul li a:hover {
+.type-2040 .ie-pg .post-contant .post .header-server .icons ul li a:hover {
   color: #1fd1ad;
 }
 .type-2040 .ie-pg .post-contant .post .text {
@@ -226,10 +226,10 @@
   bottom: 0;
 }
 @media (min-width: 992px) {
-  .sec-header h2 {
+  .sec-header-server h2 {
     font-size: 48px;
   }
-  .sec-header p {
+  .sec-header-server p {
     font-size: 24px;
   }
 }
@@ -245,13 +245,13 @@
   .post {
     margin: 30px 0 !important;
   }
-  .post .header {
+  .post .header-server {
     margin: 30px 0 !important;
   }
-  .sec-header h2 {
+  .sec-header-server h2 {
     font-size: 45px;
   }
-  .sec-header p {
+  .sec-header-server p {
     font-size: 20px;
   }
 }
@@ -259,31 +259,31 @@
   .post {
     margin: 30px 0 70px 0 !important;
   }
-  .sec-header {
+  .sec-header-server {
     margin-bottom: 20px;
   }
-  .sec-header h2 {
+  .sec-header-server h2 {
     font-size: 36px;
   }
-  .sec-header p {
+  .sec-header-server p {
     font-size: 18px;
   }
 }
 @media (max-width: 480px) {
-  .header {
+  .header-server {
     margin-top: 70px !important;
   }
-  .header .icons {
+  .header-server .icons {
     float: none !important;
     margin-top: 10px;
   }
-  .header .post-date {
+  .header-server .post-date {
     float: none !important;
   }
-  .sec-header h2 {
+  .sec-header-server h2 {
     font-size: 30px;
   }
-  .sec-header p {
+  .sec-header-server p {
     font-size: 15px;
   }
 }
