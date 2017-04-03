@@ -190,7 +190,7 @@
   text-align: center;
   background-color: #fff;
   position: relative;
-  margin: 0 0 0 50px;
+  margin: 0 0 0 30px;
 }
 .type-2041 .testimonial-data .testimonial-text p {
   font-size: 18px;
@@ -265,7 +265,7 @@
     font-size: 22px !important;
   }
   .testimonial-text {
-    margin-right: 25px !important;
+    margin-left: 30px !important;
   }
   .testimonial-text p {
     font-size: 14px !important;
