@@ -9,14 +9,14 @@
             width: 100%;
             padding: 40px 0px 40px 0px;
             p {
-       
+
                 font-weight: 600;
                 font-style: italic;
                 position: relative;
                 color: #00a685;
             }
             h2{
-             
+
                 font-weight: 600;
             }
             span {
@@ -101,6 +101,9 @@
                 font-weight: normal;
                 display: inline-block;
             }
+            .height-equal {
+                height: auto !important;
+            }
         }
         .header{
             padding: 0px 10px;
@@ -167,6 +170,9 @@
     .owl-carousel .owl-item{
         min-height:1px;
         float:left;
+        -webkit-backface-visibility: hidden;
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
     }
     .owl-nav   {
         position: absolute;
@@ -202,6 +208,18 @@
     .item{
         padding: 15px;
         cursor: pointer;
+    }
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        z-index: 1;
+    }
+    .owl-carousel.owl-loaded {
+        display: block;
+    }
+    .owl-carousel.owl-loading {
+        opacity: 0;
+        display: block;
     }
 }
 @media (min-width: 1200px){
@@ -256,7 +274,7 @@
             left: 0px;
         }
     }
-     .sec-header {
+    .sec-header {
         p {
             font-size: 18px;
         }

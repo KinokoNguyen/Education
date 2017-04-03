@@ -96,6 +96,9 @@
   font-weight: normal;
   display: inline-block;
 }
+.type-2043 .course .text .height-equal {
+  height: auto !important;
+}
 .type-2043 .course .header {
   padding: 0px 10px;
 }
@@ -157,6 +160,9 @@
 .type-2043 .owl-carousel .owl-item {
   min-height: 1px;
   float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
 }
 .type-2043 .owl-nav {
   position: absolute;
@@ -193,6 +199,18 @@
 .type-2043 .item {
   padding: 15px;
   cursor: pointer;
+}
+.type-2043 .owl-carousel {
+  display: none;
+  width: 100%;
+  z-index: 1;
+}
+.type-2043 .owl-carousel.owl-loaded {
+  display: block;
+}
+.type-2043 .owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
 }
 @media (min-width: 1200px) {
   .owl-nav {

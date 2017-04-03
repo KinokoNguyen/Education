@@ -5,6 +5,7 @@
   overflow: hidden;
   z-index: 1;
   width: 100%;
+  cursor: pointer;
 }
 .type-2038 .swiper-container:before {
   content: "";
@@ -34,6 +35,9 @@
   background: #fff;
   justify-content: center;
   align-items: center;
+}
+.type-2038 .swiper-slide img {
+  width: 100%;
 }
 .type-2038 .swiper-pagination {
   text-align: center;
@@ -170,7 +174,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .type-2038 .newsletters .subscribe {
-    width: 50%;
+  .type-2038 .swiper-slide {
+    height: 550px;
   }
 }

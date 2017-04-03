@@ -6,6 +6,7 @@
         overflow: hidden;
         z-index: 1;
         width: 100%;
+        cursor: pointer;
     }
     .swiper-container:before {
         content: "";
@@ -35,6 +36,9 @@
         background: #fff;
         justify-content: center;
         align-items: center;
+        img {
+            width: 100%;
+        }
     }
     .swiper-pagination {
         text-align: center;
@@ -176,8 +180,9 @@
         }
     }
     @media (min-width: 1200px) {
-        .newsletters .subscribe {
-            width: 50%;
+        
+        .swiper-slide {
+            height: 550px;
         }
     }
 }

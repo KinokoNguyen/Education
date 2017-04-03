@@ -11,6 +11,7 @@ $url_path = $url_host . $matches[1][0];
 ?>
 
 <div class="type-2038">
+
     <div class="swiper-container">
         <!--SLIDER-->
         <div class="swiper-wrapper">
@@ -39,17 +40,19 @@ $url_path = $url_host . $matches[1][0];
         <!--/END PAGINATION-->
 
         <!--NEWS LETTERS-->
+
         <div class="newsletters">
-            <h1>Start 30-Day free trial today.</h1>
-            <h4>Search for online courses on Web development, Yoga, Guitar lessons, or anything else.</h4>
-            <div class="subscribe">
-                <input type="text" class="input-block-level">
-                <button>Subscribe</button>
+            <div class="container">
+                <h1>Start 30-Day free trial today.</h1>
+                <h4>Search for online courses on Web development, Yoga, Guitar lessons, or anything else.</h4>
+                <div class="subscribe">
+                    <input type="text" class="input-block-level">
+                    <button>Subscribe</button>
+                </div>
             </div>
+            <!--/END NEWS LETTERS-->
+            <div class="clearfix"></div>
         </div>
-        <!--/END NEWS LETTERS-->
     </div>
-
-
     <div class="clearfix"></div>
 </div>
