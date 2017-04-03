@@ -23,6 +23,7 @@
   display: flex;
   box-sizing: content-box;
   transform: translate3d(0,0,0);
+  cursor: pointer;
 }
 .type-2038 .swiper-slide {
   flex-shrink: 0;

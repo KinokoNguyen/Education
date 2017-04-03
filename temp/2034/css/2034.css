@@ -12,6 +12,13 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+.type-2034 .navbar-nav>.open>a {
+  background-color: #00a685;
+  color: #fff;
+}
+.type-2034 #navbar {
+  padding: 0;
+}
 .type-2034 .top-strip {
   float: left;
   width: 100%;

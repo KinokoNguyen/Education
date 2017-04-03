@@ -17,18 +17,19 @@
         <link href="../2044/css/2044.css" rel="stylesheet" type="text/css"/>
         
         <script src="../2034/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../2041/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="../2034/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../2034/js/2034.js" type="text/javascript"></script>
         <script src="../2038/js/2038.js" type="text/javascript"></script>
         <script src="../2038/js/swiper.min.js" type="text/javascript"></script>
-        <script src="../2043/js/js.js" type="text/javascript"></script>
+        <script src="../2043/js/2043.js" type="text/javascript"></script>
         <script src="../2043/js/owl.carousel.min.js" type="text/javascript"></script>
         <script src="../2036/js/2036.js" type="text/javascript"></script>
         
     </head>
     <body>
         <?php include '../2034/2034-content.php'; ?>
-        <?php include '../2038/2038-content.php'; ?>
+        <?php include '../2038/2038-content.php'; ?> 
         <?php include '../2033/2033-content.php'; ?>       
         <?php include '../2043/2043-content.php'; ?>
         <?php include '../2042/2042-content.php'; ?>

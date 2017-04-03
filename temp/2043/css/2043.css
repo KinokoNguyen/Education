@@ -53,12 +53,12 @@
   font-weight: normal;
   margin: 30px 0 15px 0;
 }
-.type-2043 .course .thumb {
+.type-2043 .course .thumb-img-slide {
   float: left;
   width: 100%;
   position: relative;
 }
-.type-2043 .course .thumb img {
+.type-2043 .course .thumb-img-slide img {
   transition: all 0.3s ease-in-out;
   width: 100%;
 }
@@ -161,7 +161,7 @@
 .type-2043 .owl-nav {
   position: absolute;
   top: -7%;
-  right: 3%;
+  right: 0%;
   display: inline-flex;
 }
 .type-2043 .owl-nav .owl-next,

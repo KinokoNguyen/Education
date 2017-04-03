@@ -80,35 +80,35 @@ $url_path = $url_host . $matches[1][0];
         <div class="testimonial-data">
             <div id="bx-pager">
                 <a id="carousel-selector-0">
-                    <div class="thumb">
+                    <div class="thumb-img">
                         <img src="http://<?php echo $url_path ?>/images//student-testi1.jpg" alt="">
                     </div>
                     <p>Naiana Ansa</p>
                     <p class="color">guitarist</p>
                 </a>
                 <a id="carousel-selector-1">
-                    <div class="thumb">
+                    <div class="thumb-img">
                         <img src="http://<?php echo $url_path ?>/images//student-testi2.jpg" alt="">
                     </div>
                     <p>Jasmine Dou</p>
                     <p class="color">student</p>
                 </a>
                 <a id="carousel-selector-2">
-                    <div class="thumb">
+                    <div class="thumb-img">
                         <img src="http://<?php echo $url_path ?>/images//student-testi3.jpg" alt="">
                     </div>
                     <p>David john</p>
                     <p class="color">student</p>
                 </a>
                 <a id="carousel-selector-3">
-                    <div class="thumb">
+                    <div class="thumb-img">
                         <img src="http://<?php echo $url_path ?>/images//student-testi4.jpg" alt="">
                     </div>
                     <p>Roth Brown</p>
                     <p class="color">Artist</p>
                 </a>
                 <a id="carousel-selector-4">
-                    <div class="thumb">
+                    <div class="thumb-img">
                         <img src="http://<?php echo $url_path ?>/images//student-testi5.jpg" alt="">
                     </div>
                     <p>Timothy Smith</p>

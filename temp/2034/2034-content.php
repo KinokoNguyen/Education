@@ -14,7 +14,7 @@ $url_path = $url_host . $matches[1][0];
     <header>
         <div class="top-strip">
             <div class="container">
-
+           
                 <!--LANGUAGE-->
                 <div class="language">
                     <li class="dropdown">
@@ -64,7 +64,7 @@ $url_path = $url_host . $matches[1][0];
                     </li>
                 </div>
                 <!--/END ACCOUNT-->
-
+     
             </div>
         </div>
         <div class="clearfix"></div>
@@ -72,7 +72,7 @@ $url_path = $url_host . $matches[1][0];
         <!--MENU-->
         <nav class="navbar navbar-default">
             <div class="container">
-
+                
                 <!--LOGO-->
                 <div class="logo">
                     <a href="#">

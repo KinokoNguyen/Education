@@ -46,7 +46,7 @@
   font-weight: 600;
   font-style: italic;
   position: relative;
-  color: 2;
+  color: #00a685;
 }
 .type-2039 .sec-header h2 {
   font-weight: 600;
@@ -99,11 +99,11 @@
   margin-top: 30px;
   list-style: none;
 }
-.type-2039 .ie-content-fix .thumb img {
+.type-2039 .ie-content-fix .thumb-content img {
   border-radius: 100%;
   transition: border-radius 0.3s;
 }
-.type-2039 .ie-content-fix .thumb img:hover {
+.type-2039 .ie-content-fix .thumb-content img:hover {
   border-radius: 20%;
 }
 .type-2039 .ie-content-fix .text h4 {
@@ -136,7 +136,7 @@
   }
 }
 @media (min-width: 992px) {
-  .type-2039 .thumb img {
+  .type-2039 .thumb-content img {
     float: left;
   }
   .type-2039 .ie-content-fix .text {

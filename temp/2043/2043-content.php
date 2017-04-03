@@ -26,7 +26,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item ">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course1.jpg"></a>
                                     <div class="price"><span>$</span>21</div>
                                 </div>
@@ -54,7 +54,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course2.jpg"></a>
                                     <div class="price"><span>$</span>32</div>
                                 </div>
@@ -83,7 +83,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course3.jpg"></a>
                                     <div class="price"><span>$</span>75</div>
                                 </div>
@@ -111,7 +111,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course4.jpg"></a>
                                     <div class="price"><span>$</span>25</div>
                                 </div>
@@ -139,7 +139,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course1.jpg"></a>
                                     <div class="price"><span>$</span>21</div>
                                 </div>
@@ -167,7 +167,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course2.jpg"></a>
                                     <div class="price"><span>$</span>32</div>
                                 </div>
@@ -195,7 +195,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course3.jpg"></a>
                                     <div class="price"><span>$</span>75</div>
                                 </div>
@@ -223,7 +223,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course4.jpg"></a>
                                     <div class="price"><span>$</span>25</div>
                                 </div>
@@ -251,7 +251,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course1.jpg"></a>
                                     <div class="price"><span>$</span>21</div>
                                 </div>
@@ -279,7 +279,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course2.jpg"></a>
                                     <div class="price"><span>$</span>32</div>
                                 </div>
@@ -307,7 +307,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course3.jpg"></a>
                                     <div class="price"><span>$</span>75</div>
                                 </div>
@@ -335,7 +335,7 @@ $url_path = $url_host . $matches[1][0];
 
                         <div class="item">
                             <div class="course">
-                                <div class="thumb">
+                                <div class="thumb-img-slide">
                                     <a href="#"><img alt="" src="http://<?php echo $url_path ?>/images/course4.jpg"></a>
                                     <div class="price"><span>$</span>25</div>
                                 </div>
