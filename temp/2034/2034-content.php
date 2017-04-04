@@ -14,28 +14,29 @@ $url_path = $url_host . $matches[1][0];
     <header>
         <div class="top-strip">
             <div class="container">
-           
+
                 <!--LANGUAGE-->
                 <div class="language">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" id="currency" data-toggle="dropdown" role="button">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
                             Language 
                             <span class="caret"></span>
                         </a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel1">
+                        <ul class="dropdown-menu">
                             <li><a href="#">English</a></li>
                             <li><a href="#">Spenish</a></li>
                             <li><a href="#">Turkish</a></li>
                             <li><a href="#">Arabic</a></li>
                         </ul>
                     </li>
+
                     <!--CURRENCY-->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" id="currency" data-toggle="dropdown" role="button">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
                             Currency 
                             <span class="caret"></span>
                         </a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="currency">
+                        <ul class="dropdown-menu">
                             <li><a href="#">Dollar</a></li>
                             <li><a href="#">Euro</a></li>
                             <li><a href="#">Dirham</a></li>
@@ -52,11 +53,11 @@ $url_path = $url_host . $matches[1][0];
                     <li><a href="#">Subscribe</a></li>
                     <li><a href="#">Sign Out</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" id="currency" data-toggle="dropdown" role="button">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
                             My Account 
                             <span class="caret"></span>
                         </a>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="account">
+                        <ul class="dropdown-menu">
                             <li><a href="#">Profile</a></li>
                             <li><a href="#">Account Setting</a></li>
                             <li><a href="#">Privacy Setting</a></li>
@@ -64,7 +65,7 @@ $url_path = $url_host . $matches[1][0];
                     </li>
                 </div>
                 <!--/END ACCOUNT-->
-     
+
             </div>
         </div>
         <div class="clearfix"></div>
@@ -72,7 +73,7 @@ $url_path = $url_host . $matches[1][0];
         <!--MENU-->
         <nav class="navbar navbar-default">
             <div class="container">
-                
+
                 <!--LOGO-->
                 <div class="logo">
                     <a href="#">
@@ -94,19 +95,20 @@ $url_path = $url_host . $matches[1][0];
                         <!--/END SEARCH-->
 
                         <li class="dropdown">
-                            <a class="dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="#">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button">
                                 <i class="fa fa-briefcase"></i><span>&euro;0</span>
                             </a>
-                            <div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <ul class="dropdown-menu">
                                 <p>0 items in shopping bag</p>
                                 <p class="color">Unfortunately, your shopping bag is emtpy.</p>
                                 <a href="#" class="return">Return to the Shop</a>
-                            </div>
+                            </ul>
                         </li>
+
                         <li><i class="fa fa-star"></i><span>3</span></li>
                     </ul>
                 </div>
-                
+
                 <div class="navbar-header">
                     <!--BUTTON TOGGLE-->
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -168,7 +170,7 @@ $url_path = $url_host . $matches[1][0];
                                 <li><a href="#">Student Profile</a></li>
                                 <li><a href="#">Teacher Profile</a></li>
                                 <li><a href="#">Our Team</a></li>
-                             
+
                             </ul>
                         </li>
                         <li><a href="#">Contact Us</a></li>
@@ -177,7 +179,7 @@ $url_path = $url_host . $matches[1][0];
                 <!--/END COLLAPSE-->
                 <!--/END CART-->
 
-                
+
 
 
             </div>

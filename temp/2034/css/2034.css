@@ -25,13 +25,10 @@
   border-top: 5px solid #00a685;
   padding: 20px 0px;
 }
-.type-2034 .language {
-  float: left;
-  list-style: none;
-}
 .type-2034 .language .dropdown {
   margin-right: 20px;
   float: left;
+  list-style: none;
 }
 .type-2034 .language .dropdown-toggle {
   font-size: 12px;
@@ -44,6 +41,10 @@
 .type-2034 .account .dropdown-menu {
   left: auto;
   right: 0px;
+}
+.type-2034 .account .dropdown-menu li {
+  width: 100%;
+  margin: 0;
 }
 .type-2034 .account ul {
   float: left;
@@ -66,18 +67,6 @@
 .type-2034 .dropdown a:hover,
 .type-2034 .dropdown a:focus {
   text-decoration: none;
-}
-.type-2034 .dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none;
-  float: left;
-  min-width: 190px;
-  padding: 0;
-  margin: 2px 0 0;
-  border-radius: 0px;
 }
 .type-2034 .dropdown-menu li a {
   display: block;
@@ -122,6 +111,9 @@
   display: block;
   text-align: center;
   background-color: #00a685;
+}
+.type-2034 .cart ul li a.return:hover {
+  background-color: #0fdfac;
 }
 .type-2034 .cart ul li:first-child {
   border: none;
@@ -310,7 +302,6 @@
     float: none;
   }
   .type-2034 .account ul {
-    text-align: center;
     width: 100%;
   }
   .type-2034 .account ul li {
@@ -333,6 +324,6 @@
     min-width: 280px;
     right: 0;
     top: 100%;
-    left: -180%;
+    left: -420%;
   }
 }
