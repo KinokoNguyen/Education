@@ -16,10 +16,11 @@
         <link href="../2037/css/2037.css" rel="stylesheet" type="text/css"/>
         <link href="../2044/css/2044.css" rel="stylesheet" type="text/css"/>
         
-        <script src="../2034/js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="../2041/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="../2034/js/jquery.min.js" type="text/javascript"></script>
         <script src="../2034/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../2034/js/2034.js" type="text/javascript"></script>
+        <script src="../2034/js/menu.js" type="text/javascript"></script>
         <script src="../2038/js/2038.js" type="text/javascript"></script>
         <script src="../2038/js/swiper.min.js" type="text/javascript"></script>
         <script src="../2043/js/2043.js" type="text/javascript"></script>
