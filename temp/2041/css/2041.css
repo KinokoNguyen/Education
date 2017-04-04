@@ -236,9 +236,6 @@
     z-index: 999999;
     position: relative;
   }
-  .testimonial-contant #bx-pager {
-    margin: 10px 20px 10px 30px !important;
-  }
   .sec-header h2 {
     font-size: 32px !important;
     line-height: 32px !important;

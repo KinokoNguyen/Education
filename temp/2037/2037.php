@@ -14,6 +14,8 @@
         $less->compileFile('less/2037.less', 'css/2037.css');
         ?> 
         <link href="css/2037.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="js/2037.js" type="text/javascript"></script>
     </head> 
 
     <body> 
