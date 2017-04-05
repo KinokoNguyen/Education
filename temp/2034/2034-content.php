@@ -71,9 +71,8 @@ $url_path = $url_host . $matches[1][0];
         <div class="clearfix"></div>
 
         <!--MENU-->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
-
                 <!--LOGO-->
                 <div class="logo">
                     <a href="#">
@@ -110,21 +109,19 @@ $url_path = $url_host . $matches[1][0];
                 </div>
 
                 <div class="navbar-header">
-                    <!--BUTTON TOGGLE-->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!--/END BUTTON TOGGLE-->
                 </div>
-                <!--COLLAPSE-->
-                <div id="navbar" class="navbar-collapse collapse">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home</a>
-                            <ul class="dropdown-menu">
+                        <!--MENU DROP DOWN-->
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                            <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Home Page Default</a></li>
                                 <li><a href="#">Home Page 1</a></li>
                                 <li><a href="#">Home Page 2</a></li>
@@ -133,31 +130,44 @@ $url_path = $url_host . $matches[1][0];
                                 <li><a href="#">Home Page 5</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-                            <ul class="dropdown-menu">
+                        <!--/END MENU DROP DOWN-->
+
+                        <!--MENU DROP DOWN-->
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                            <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Blog Detail</a></li>
                             </ul>
                         </li>
+                        <!--/END MENU DROP DOWN-->
+
                         <li><a href="#">Services</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Event</a>
-                            <ul class="dropdown-menu">
+
+                        <!--MENU DROP DOWN-->
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Event</a>
+                            <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Events</a></li>
-                                <li><a href="#">Event Detail</a></li>   
+                                <li><a href="#">Event Detail</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Courses</a>
-                            <ul class="dropdown-menu">
+                        <!--/END MENU DROP DOWN-->
+
+                        <!--MENU DROP DOWN-->
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
+                            <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">Courses</a></li>
                                 <li><a href="#">Course Detail</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-                            <ul class="dropdown-menu">
+                        <!--/END MENU DROP DOWN-->
+
+                        <!--MENU DROP DOWN-->
+                        <li class="dropdown show-hover">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu" role="menu">
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Error 404</a></li>
                                 <li><a href="#">FAQs</a></li>
@@ -170,21 +180,19 @@ $url_path = $url_host . $matches[1][0];
                                 <li><a href="#">Student Profile</a></li>
                                 <li><a href="#">Teacher Profile</a></li>
                                 <li><a href="#">Our Team</a></li>
-
                             </ul>
                         </li>
+                        <!--/END MENU DROP DOWN-->
+
                         <li><a href="#">Contact Us</a></li>
                     </ul>
-                </div>
-                <!--/END COLLAPSE-->
-                <!--/END CART-->
-
-
-
-
-            </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </nav>
         <!--/END MENU-->
         <div class="clearfix"></div>
     </header>
+    <script>
+        $("nav.navbar-fixed-top").autoHidingNavbar();
+    </script>
 </div>

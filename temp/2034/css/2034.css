@@ -195,6 +195,10 @@
   color: #fff;
   background-color: #00a685;
 }
+.type-2034 .navbar-default .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
 .type-2034 .navbar-default .navbar-collapse .navbar-nav li ul {
   padding: 5px;
 }
@@ -241,6 +245,11 @@
   }
   .type-2034 .search-box {
     min-width: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .type-2034 .show-hover:hover > ul.dropdown-menu {
+    display: block;
   }
 }
 @media (max-width: 767px) {
