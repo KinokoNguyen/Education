@@ -16,19 +16,23 @@
   background-color: #00a685;
   color: #fff;
 }
-.type-2034 #navbar {
-  padding: 0;
-}
 .type-2034 .top-strip {
   float: left;
   width: 100%;
   border-top: 5px solid #00a685;
   padding: 20px 0px;
 }
+.type-2034 #navbar.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1100;
+}
 .type-2034 .language .dropdown {
   margin-right: 20px;
   float: left;
   list-style: none;
+  z-index: 1110;
 }
 .type-2034 .language .dropdown-toggle {
   font-size: 12px;
@@ -41,6 +45,7 @@
 .type-2034 .account .dropdown-menu {
   left: auto;
   right: 0px;
+  z-index: 1110;
 }
 .type-2034 .account .dropdown-menu li {
   width: 100%;

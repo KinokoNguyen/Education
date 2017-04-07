@@ -12,6 +12,7 @@ $url_path = $url_host . $matches[1][0];
 
 <div class="type-2034">
     <header>
+        <div id="header">
         <div class="top-strip">
             <div class="container">
 
@@ -68,10 +69,12 @@ $url_path = $url_host . $matches[1][0];
 
             </div>
         </div>
+        </div>
         <div class="clearfix"></div>
 
         <!--MENU-->
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div id="navbar">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation">
             <div class="container">
                 <!--LOGO-->
                 <div class="logo">
@@ -189,10 +192,20 @@ $url_path = $url_host . $matches[1][0];
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
+        </div>
         <!--/END MENU-->
         <div class="clearfix"></div>
     </header>
     <script>
-        $("nav.navbar-fixed-top").autoHidingNavbar();
+//        $("nav.navbar-fixed-top").autoHidingNavbar();
+
+        $(document).ready(function () {
+            $('#navbar').affix({
+                offset: {
+                    top: $('#header').height()
+                }
+            });
+        });
+        
     </script>
 </div>

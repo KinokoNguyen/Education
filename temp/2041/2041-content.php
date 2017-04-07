@@ -25,7 +25,7 @@ $url_path = $url_host . $matches[1][0];
                 <div class="" id="slider">
                     <!-- Top part of the slider -->
                     <div class="">
-                        <div class="testimonial-data" id="carousel-bounding-box">
+                        <div class="bxslider testimonial-data" id="carousel-bounding-box">
                             <div class="carousel slide" id="myCarousel">
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">

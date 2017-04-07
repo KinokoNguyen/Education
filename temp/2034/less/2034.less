@@ -19,20 +19,26 @@
         background-color: #00a685;
         color: #fff;
     }
-    #navbar{
-        padding: 0;
-    }
     .top-strip {
         float: left;
         width: 100%;
         border-top: 5px solid #00a685;
         padding: 20px 0px;
     }
+
+    #navbar.affix {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index:1100;
+    }
+
     .language {
         .dropdown {
             margin-right: 20px;
             float: left;
             list-style: none;
+            z-index: 1110;
         }
         .dropdown-toggle {
             font-size: 12px;
@@ -45,6 +51,7 @@
         .dropdown-menu {
             left: auto;
             right: 0px;
+            z-index: 1110;
             li{
                 width: 100%;
                 margin: 0;
@@ -223,9 +230,9 @@
             }
         }
     }
-/*    .navbar-fixed-top {
-        top: 65px;
-    }*/
+    /*    .navbar-fixed-top {
+            top: 65px;
+        }*/
 
     @media (min-width: 1200px) {
         .navbar-collapse {
