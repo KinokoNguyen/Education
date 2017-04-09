@@ -5,7 +5,7 @@
     @color_hover: #1fd1ad;
     @color_green: #00a685;
     /*Begin Follow*/
-    
+
     .follow-us {
         padding: 35px 0px;
         margin: 0px;
@@ -78,60 +78,10 @@
         .ie-pg{
             padding-bottom: 20px;
             background-image: url(../images/footer-bg.png);
-            .widget-slider{
-                .owl-carousel{
-                    display: none;
-                    position: relative;
-                    width: 100%;
-                    -ms-touch-action: pan-y;
-                }
-                .owl-carousel .owl-wrapper{
-                    display: none;
-                    position: relative;
-                    -webkit-transform: translate3d(0px, 0px, 0px);
-                }
-                .owl-carousel .owl-wrapper-outer{
-                    overflow: hidden;
-                    position: relative;
-                    width: 100%;
-                }
-                .owl-carousel .owl-item{
-                    float: left;
-                }
-                .owl-buttons{
-                    display: none;
-                }
-                #owl-demo .item img{
-                    display: block;
-                    width: 100%;
-                    height: auto;
-                }
-                .owl-theme .owl-controls .owl-page{
-                    display: inline-block;
-                    zoom: 1;
-                    *display: inline;/*IE7 life-saver */
-                }
-                .owl-page span:hover{
-                    cursor: pointer;
-                    background: @color_green !important;
-                }
-                .owl-pagination .active{
-                    span{
-                        background: @color_green !important;
-                    }
-                }
-                .owl-theme .owl-controls .owl-page span{
-                    display: block;
-                    width: 15px;
-                    height: 15px;
-                    border-radius: 50%;
-                    margin: 5px 3px;
-                    filter: Alpha(Opacity=50);
-                    opacity: 0.5;
-                    background: #fff;
-                }
-            }
+            float: left;
+            width: 100%;
             .text{
+                margin-top: 10px;
                 .color{
                     color: @color_green;
                     font-size: 16px;
@@ -139,9 +89,59 @@
                     margin: 0;
                 }
             }
+            .owl-carousel {
+                display: none;
+                width: 100%;
+                position: relative;
+                z-index: 1; 
+            }
+            .owl-carousel .owl-stage {
+                position: relative;
+                -ms-touch-action: pan-Y;
+                -moz-backface-visibility: hidden;
+            }
+            .owl-carousel .owl-stage:after {
+                content: ".";
+                display: block;
+                clear: both;
+                visibility: hidden;
+                line-height: 0;
+                height: 0; 
+            }
+            .owl-carousel .owl-stage-outer {
+                position: relative;
+                overflow: hidden;
+                -webkit-transform: translate3d(0px, 0px, 0px); 
+            }
+            .owl-carousel .owl-item {
+                position: relative;
+                min-height: 1px;
+                float: left; 
+                cursor: pointer;
+            }
+            .owl-carousel .owl-item img {
+                display: block;
+                width: 100%; 
+            }
+            .owl-carousel .owl-nav .owl-prev,
+            .owl-carousel .owl-nav .owl-next {
+                cursor: pointer;
+                cursor: hand;
+                display: none; 
+            }
+            .owl-carousel .owl-dot {
+                cursor: pointer;
+                display: block;
+            }
+            .owl-carousel.owl-loaded {
+                display: block; 
+            }
+            .owl-carousel.owl-loading {
+                opacity: 0;
+                display: block; 
+            }
         }
-        float: left;
-        width: 100%;
+
         h2 {
             font-size: 24px;
             color: #fff;
@@ -209,7 +209,7 @@
             }
         }
         .widget-posts ul {
-           
+
             width: 100%;
             list-style: none;
             margin-left: -40px;

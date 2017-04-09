@@ -75,7 +75,7 @@ $url_path = $url_host . $matches[1][0];
                     <div class="col-md-3 col-sm-3">
                         <h2>Our Articles</h2>
                         <div class="widget widget-slider" id="myCarousel">
-                            <div id="owl-demo" class="owl-carousel">
+                            <div id="carousel-2" class="owl-carousel owl-theme">
                                 <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
                                 <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
                                 <div class="item"><img src="http://<?php echo $url_path ?>/images/article.jpg" alt="The Last of us"></div>
@@ -86,7 +86,6 @@ $url_path = $url_host . $matches[1][0];
                             <p class="color">Duis semper nuncid</p>
                             <p>Semper nunc id metus sagittis nec ullamcorper justo qondimentum mattis.</p>
                         </div>
-
 
                     </div>
 
@@ -296,13 +295,20 @@ $url_path = $url_host . $matches[1][0];
     <!--End Footer-->
     <script>
         $(document).ready(function () {
-            $("#owl-demo").owlCarousel({
-
-                navigation: true,
-                slideSpeed: 300,
-                paginationSpeed: 400,
-                singleItem: true
-            });
+            var owl2 = $('#carousel-2');
+            owl2.owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    1200: {
+                        items: 1
+                    }
+                }
+            })
         });
     </script>
 </div>

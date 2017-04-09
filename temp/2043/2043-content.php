@@ -22,7 +22,7 @@ $url_path = $url_host . $matches[1][0];
                     <span></span>
                 </div>                                              
                 <div class="featured-courses">
-                    <div class="height-row owl-carousel owl-theme">
+                    <div  id="carousel-1" class="height-row owl-carousel owl-theme">
 
                         <div class="item ">
                             <div class="course">
@@ -368,7 +368,7 @@ $url_path = $url_host . $matches[1][0];
 
         <script>
             $(document).ready(function () {
-                var owl = $('.owl-carousel');
+                var owl = $('#carousel-1');
                 owl.owlCarousel({
                     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
                     margin: 10,

@@ -62,68 +62,71 @@
 .type-2044 .follow:hover i {
   border-radius: 10px;
 }
-.type-2044 footer {
-  float: left;
-  width: 100%;
-}
 .type-2044 footer .ie-pg {
   padding-bottom: 20px;
   background-image: url(../images/footer-bg.png);
-}
-.type-2044 footer .ie-pg .widget-slider .owl-carousel {
-  display: none;
-  position: relative;
-  width: 100%;
-  -ms-touch-action: pan-y;
-}
-.type-2044 footer .ie-pg .widget-slider .owl-carousel .owl-wrapper {
-  display: none;
-  position: relative;
-  -webkit-transform: translate3d(0px,0px,0px);
-}
-.type-2044 footer .ie-pg .widget-slider .owl-carousel .owl-wrapper-outer {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-.type-2044 footer .ie-pg .widget-slider .owl-carousel .owl-item {
   float: left;
-}
-.type-2044 footer .ie-pg .widget-slider .owl-buttons {
-  display: none;
-}
-.type-2044 footer .ie-pg .widget-slider #owl-demo .item img {
-  display: block;
   width: 100%;
-  height: auto;
 }
-.type-2044 footer .ie-pg .widget-slider .owl-theme .owl-controls .owl-page {
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-}
-.type-2044 footer .ie-pg .widget-slider .owl-page span:hover {
-  cursor: pointer;
-  background: #00a685 !important;
-}
-.type-2044 footer .ie-pg .widget-slider .owl-pagination .active span {
-  background: #00a685 !important;
-}
-.type-2044 footer .ie-pg .widget-slider .owl-theme .owl-controls .owl-page span {
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  margin: 5px 3px;
-  filter: Alpha(Opacity=50);
-  opacity: 0.5;
-  background: #fff;
+.type-2044 footer .ie-pg .text {
+  margin-top: 10px;
 }
 .type-2044 footer .ie-pg .text .color {
   color: #00a685;
   font-size: 16px;
   font-weight: 500;
   margin: 0;
+}
+.type-2044 footer .ie-pg .owl-carousel {
+  display: none;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.type-2044 footer .ie-pg .owl-carousel .owl-stage {
+  position: relative;
+  -ms-touch-action: pan-Y;
+  -moz-backface-visibility: hidden;
+}
+.type-2044 footer .ie-pg .owl-carousel .owl-stage:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.type-2044 footer .ie-pg .owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0px,0px,0px);
+}
+.type-2044 footer .ie-pg .owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  cursor: pointer;
+}
+.type-2044 footer .ie-pg .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+}
+.type-2044 footer .ie-pg .owl-carousel .owl-nav .owl-prev,
+.type-2044 footer .ie-pg .owl-carousel .owl-nav .owl-next {
+  cursor: pointer;
+  cursor: hand;
+  display: none;
+}
+.type-2044 footer .ie-pg .owl-carousel .owl-dot {
+  cursor: pointer;
+  display: block;
+}
+.type-2044 footer .ie-pg .owl-carousel.owl-loaded {
+  display: block;
+}
+.type-2044 footer .ie-pg .owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
 }
 .type-2044 footer h2 {
   font-size: 24px;
