@@ -1,6 +1,5 @@
 .type-2043 {
   background-color: #f7f7f7;
-  font-family: 'Crete Round', serif;
 }
 .type-2043 .content .sec-header {
   text-align: center;
@@ -49,7 +48,6 @@
 }
 .type-2043 .content .featured-courses h2 {
   font-size: 24px;
-  font-family: 'Crete Round', serif;
   font-weight: normal;
   margin: 30px 0 15px 0;
 }
@@ -225,10 +223,10 @@
     font-size: 40px;
   }
   .sec-header p {
-    font-size: 28px;
+    font-size: 24px;
   }
   .sec-header h2 {
-    font-size: 40px;
+    font-size: 48px;
   }
 }
 @media (max-width: 992px) {
@@ -239,10 +237,10 @@
     font-size: 30px;
   }
   .sec-header p {
-    font-size: 24px;
+    font-size: 20px;
   }
   .sec-header h2 {
-    font-size: 34px;
+    font-size: 40px;
   }
 }
 @media (min-width: 481px) {
@@ -257,7 +255,7 @@
     left: 0px;
   }
   .sec-header p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .sec-header h2 {
     font-size: 28px;
