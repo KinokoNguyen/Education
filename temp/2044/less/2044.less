@@ -81,7 +81,6 @@
             float: left;
             width: 100%;
             .text{
-                margin-top: 10px;
                 .color{
                     color: @color_green;
                     font-size: 16px;
@@ -129,9 +128,12 @@
                 cursor: hand;
                 display: none; 
             }
+            .owl-carousel .owl-dots {
+                margin-top: 10px;
+            }
             .owl-carousel .owl-dot {
                 cursor: pointer;
-                display: block;
+                display: inline-block;
             }
             .owl-carousel.owl-loaded {
                 display: block; 
@@ -139,6 +141,26 @@
             .owl-carousel.owl-loading {
                 opacity: 0;
                 display: block; 
+            }
+            .widget-slider .owl-theme {
+                span {
+                    display: block;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    margin: 5px 3px;
+                    filter: Alpha(Opacity=50);
+                    opacity: 0.5;
+                    background: #fff;
+                }
+                span:hover {
+                    cursor: pointer;
+                    background: #00a685 !important;
+                    cursor: hand;
+                }
+                .active span {
+                    background: #00a685 !important;
+                }
             }
         }
 
