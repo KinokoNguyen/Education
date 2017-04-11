@@ -12,6 +12,9 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+.type-2034 {
+  transition: all 0.5s ease-out;
+}
 .type-2034 .navbar-nav>.open>a {
   background-color: #00a685;
   color: #fff;
@@ -21,12 +24,16 @@
   width: 100%;
   border-top: 5px solid #00a685;
   padding: 20px 0px;
+  border-bottom: solid 1px #e6e6e6;
 }
 .type-2034 #navbar.affix {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1100;
+}
+.type-2034 #menu-home {
+  position: initial;
 }
 .type-2034 .language .dropdown {
   margin-right: 20px;

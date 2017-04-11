@@ -11,13 +11,10 @@ $url_path = $url_host . $matches[1][0];
 ?>
 
 <div class="type-2034">
-    <header>
-
-        <div class="clearfix"></div>
-
+    <!--<header>-->
         <!--MENU-->
         <div id="navbar">
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="menu-home" >
                 <div class="top-strip" id="demo">
                     <div class="container">
 
@@ -193,18 +190,19 @@ $url_path = $url_host . $matches[1][0];
             </nav>
         </div>
         <!--/END MENU-->
-        <div class="clearfix"></div>
+<!--        <div class="clearfix"></div>
     </header>
-
+    <div class="clearfix"></div>-->
 
     <script>
-        $(window).scroll(function () {
-           
+        $(window).scroll(function () {           
             if ($(window).scrollTop() <= 0) {
-                document.getElementById("demo").style.display = "block";
+                document.getElementById("demo").style.display = "block";   
+                document.getElementById("menu-home").style.position = "initial";
             }
             if ($(window).scrollTop() > 100) {
                 document.getElementById("demo").style.display = "none";
+                document.getElementById("menu-home").style.position = "fixed";
             }
         });
     </script>
