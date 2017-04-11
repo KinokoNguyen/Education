@@ -20,7 +20,7 @@
         <script src="../2034/js/jquery.min.js" type="text/javascript"></script>
         <script src="../2034/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../2034/js/2034.js" type="text/javascript"></script>
-        <script src="../2034/js/jquery.bootstrap-autohidingnavbar.js" type="text/javascript"></script>
+        <script src="../2034/js/menu.js" type="text/javascript"></script>
         <script src="../2038/js/2038.js" type="text/javascript"></script>
         <script src="../2038/js/swiper.min.js" type="text/javascript"></script>
         <script src="../2043/js/2043.js" type="text/javascript"></script>

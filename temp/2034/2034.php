@@ -19,7 +19,7 @@
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/2034.js" type="text/javascript"></script>
-        <script src="js/jquery.bootstrap-autohidingnavbar.js" type="text/javascript"></script>
+        <script src="js/menu.js" type="text/javascript"></script>
     </head> 
 
     <body> 

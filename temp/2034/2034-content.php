@@ -190,34 +190,22 @@ $url_path = $url_host . $matches[1][0];
             </nav>
         </div>
         <!--/END MENU-->
-<!--        <div class="clearfix"></div>
-    </header>
-    <div class="clearfix"></div>-->
+
+
 
     <script>
+        $("nav.navbar-fixed-top").autoHidingNavbar();
+        
         $(window).scroll(function () {           
             if ($(window).scrollTop() <= 0) {
                 document.getElementById("demo").style.display = "block";   
                 document.getElementById("menu-home").style.position = "initial";
             }
             if ($(window).scrollTop() > 100) {
-                document.getElementById("demo").style.display = "none";
+                document.getElementById("demo").style.display = "none";   
                 document.getElementById("menu-home").style.position = "fixed";
             }
         });
-    </script>
-
-    <script>
-        $("nav.navbar-fixed-top").autoHidingNavbar();
-
-//        $(document).ready(function () {
-//            $('#navbar').affix({
-//                offset: {
-//                    top: $('#header').height()
-//                }
-//            });
-//        });
-
     </script>
 </div>
 
