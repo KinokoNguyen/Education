@@ -41,9 +41,18 @@ $url_path = $url_host . $matches[1][0];
 
                                         <div class="icons">
                                             <ul>
-                                                <li><a href="#"><i class="fa fa-heart-o"></i><span id="notification-counter">25</span></a></a></li>
-                                                <li><a href="#"><i class="fa fa-link"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-comments-o"></i></a></li>
+                                                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Notification">
+                                                        <i class="fa fa-heart-o"></i><span id="notification-counter">25</span>
+                                                    </a>
+                                                </li>
+                                                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Share">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </li>
+                                                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Message">
+                                                        <i class="fa fa-comments-o"></i>
+                                                    </a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -72,12 +81,18 @@ $url_path = $url_host . $matches[1][0];
 
                                         <div class="icons">
                                             <ul>
-                                                <li><a href="#"><i class="fa fa-heart-o"></i>
-                                                        <span id="notification-counter">25</span></a>
-
+                                                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Notification">
+                                                        <i class="fa fa-heart-o"></i><span id="notification-counter">25</span>
+                                                    </a>
                                                 </li>
-                                                <li><a href="#"><i class="fa fa-link"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-comments-o"></i></a></li>
+                                                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Share">
+                                                        <i class="fa fa-link"></i>
+                                                    </a>
+                                                </li>
+                                                <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Message">
+                                                        <i class="fa fa-comments-o"></i>
+                                                    </a>
+                                                </li>
                                             </ul>
                                             <div class="clear"></div>
                                         </div>
@@ -99,4 +114,8 @@ $url_path = $url_host . $matches[1][0];
         </div>
     </div>
 
+
+
+
 </div>
+
