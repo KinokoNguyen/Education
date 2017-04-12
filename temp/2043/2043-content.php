@@ -1,7 +1,6 @@
 <?php
 $url_host = $_SERVER['HTTP_HOST'];
 
-
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
@@ -22,8 +21,7 @@ $url_path = $url_host . $matches[1][0];
                     <span></span>
                 </div>                                              
                 <div class="featured-courses">
-                    <div  id="carousel-1" class="height-row owl-carousel owl-theme">
-
+                    <div  id="carousel-1" class="owl-carousel owl-theme">
                         <div class="item ">
                             <div class="course">
                                 <div class="thumb-img-slide">
@@ -388,8 +386,8 @@ $url_path = $url_host . $matches[1][0];
                             items: 4
                         }
                     }
-                })
-            })
+                });
+            });
         </script>
     </div>
 </div>
