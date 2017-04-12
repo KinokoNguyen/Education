@@ -28,7 +28,7 @@
         border-top: 5px solid @color_green;
         padding: 20px 0px;
         border-bottom: solid 1px #e6e6e6;
-        transition: display 0.5s ease-out;
+
     }
 
     #navbar.affix {
@@ -37,8 +37,9 @@
         width: 100%;
         z-index:1100;
     }
-    #menu-home{
-        position: initial;
+    #menu-strip{
+        display: block;
+        transition: display 0.5s ease-in-out;
     }
     .language {
         .dropdown {
@@ -79,6 +80,9 @@
             color: #b2b2b2;
             text-decoration: none;
         }
+        a:hover{
+            color: @color_green;
+        }
     }
     .dropdown {
         .caret {
@@ -86,6 +90,12 @@
         }
         a:hover, a:focus {
             text-decoration: none;
+        }
+        a:hover{
+            color: @color_green;
+            .caret{
+                border-top: 4px solid @color_green;
+            }
         }
     }
     .dropdown-menu {
@@ -126,6 +136,9 @@
                 a {
                     color: #252525;
                 }
+            }
+            .fa-search:hover{
+                color: @color_green;
             }
             li a.return {
                 padding: 10px 20px;

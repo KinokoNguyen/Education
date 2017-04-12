@@ -22,7 +22,6 @@
   border-top: 5px solid #00a685;
   padding: 20px 0px;
   border-bottom: solid 1px #e6e6e6;
-  transition: display 0.5s ease-out;
 }
 .type-2034 #navbar.affix {
   position: fixed;
@@ -30,8 +29,9 @@
   width: 100%;
   z-index: 1100;
 }
-.type-2034 #menu-home {
-  position: initial;
+.type-2034 #menu-strip {
+  display: block;
+  transition: display 0.5s ease-in-out;
 }
 .type-2034 .language .dropdown {
   margin-right: 20px;
@@ -71,12 +71,21 @@
   color: #b2b2b2;
   text-decoration: none;
 }
+.type-2034 .account a:hover {
+  color: #00a685;
+}
 .type-2034 .dropdown .caret {
   border-top: 4px solid #b2b2b2;
 }
 .type-2034 .dropdown a:hover,
 .type-2034 .dropdown a:focus {
   text-decoration: none;
+}
+.type-2034 .dropdown a:hover {
+  color: #00a685;
+}
+.type-2034 .dropdown a:hover .caret {
+  border-top: 4px solid #00a685;
 }
 .type-2034 .dropdown-menu li a {
   display: block;
@@ -114,6 +123,9 @@
 }
 .type-2034 .cart ul li a {
   color: #252525;
+}
+.type-2034 .cart ul .fa-search:hover {
+  color: #00a685;
 }
 .type-2034 .cart ul li a.return {
   padding: 10px 20px;
