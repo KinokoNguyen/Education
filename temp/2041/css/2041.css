@@ -105,9 +105,6 @@
   border: 0;
   max-width: 100%;
 }
-.type-2041 .testimonial-contant #bx-pager {
-  margin: 30px 0px 0px 30px;
-}
 .type-2041 .testimonial-contant #bx-pager a {
   text-decoration: none;
   color: #fff;
@@ -115,7 +112,6 @@
   font-style: italic;
   margin: 0px;
   float: left;
-  width: 20%;
 }
 .type-2041 .testimonial-contant #bx-pager a .color {
   color: #00a685;
@@ -151,6 +147,7 @@
   float: left;
   width: 100%;
   position: relative;
+  margin-top: 20px;
   z-index: 100;
 }
 .type-2041 .testimonial-data .bx-wrapper {
@@ -208,6 +205,58 @@
 }
 .type-2041 .testimonial-data .testimonial-text a:hover {
   color: #005580;
+}
+.type-2041 .testimonial-data .swiper-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.type-2041 .testimonial-data .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  flex-shrink: 0;
+  width: 20% !important;
+  position: relative;
+  background: none;
+  margin: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-2041 .testimonial-data .swiper-wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  box-sizing: content-box;
+}
+.type-2041 .testimonial-data .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #fff;
+  cursor: pointer;
+  margin: 0 2px;
+}
+.type-2041 .testimonial-data .swiper-pagination-bullet:hover {
+  background: #1fd1ad;
+}
+.type-2041 .testimonial-data .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #00a685;
 }
 @media (min-width: 1200px) {
   .testimonial-data {
@@ -276,9 +325,6 @@
   }
 }
 @media (max-width: 480px) {
-  #bx-pager {
-    display: none !important;
-  }
   .sec-header {
     width: 90% !important;
     margin: 0 5%;
