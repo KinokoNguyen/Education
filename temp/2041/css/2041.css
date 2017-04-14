@@ -146,7 +146,6 @@
 .type-2041 .testimonial-data {
   float: left;
   width: 100%;
-  position: relative;
   margin-top: 20px;
   z-index: 100;
 }
@@ -218,7 +217,6 @@
   text-align: center;
   font-size: 18px;
   flex-shrink: 0;
-  width: 20% !important;
   position: relative;
   background: none;
   margin: 0 !important;
@@ -257,6 +255,48 @@
 .type-2041 .testimonial-data .swiper-pagination-bullet-active {
   opacity: 1;
   background: #00a685;
+}
+.type-2041 .testimonial-data .swiper-container:hover .swiper-button-next {
+  right: 0;
+}
+.type-2041 .testimonial-data .swiper-container:hover .swiper-button-prev {
+  left: 0;
+}
+.type-2041 .testimonial-data .swiper-button-next,
+.type-2041 .testimonial-data .swiper-button-prev {
+  position: absolute;
+  top: 0%;
+  width: 20px;
+  color: #cccccc;
+  height: 100%;
+  z-index: 10;
+  cursor: pointer;
+  -moz-background-size: 27px 44px;
+  -webkit-background-size: 27px 44px;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.type-2041 .testimonial-data .swiper-button-next i,
+.type-2041 .testimonial-data .swiper-button-prev i {
+  margin-top: 300%;
+}
+.type-2041 .testimonial-data .swiper-button-disabled {
+  opacity: .35;
+  cursor: auto;
+  pointer-events: none;
+}
+.type-2041 .testimonial-data .swiper-button-next {
+  background: linear-gradient(to right,rgba(0,0,0,0.0007) 0,rgba(0,0,0,0.5) 100%);
+  right: -20px;
+  left: auto;
+  transition: right 0.5s;
+}
+.type-2041 .testimonial-data .swiper-button-prev {
+  background: linear-gradient(to right,rgba(0,0,0,0.5) 0,rgba(0,0,0,0.0007) 100%);
+  left: -20px;
+  right: auto;
+  transition: left 0.5s;
 }
 @media (min-width: 1200px) {
   .testimonial-data {

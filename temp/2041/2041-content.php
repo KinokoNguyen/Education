@@ -21,61 +21,61 @@ $url_path = $url_host . $matches[1][0];
         </div>
         <div id="main_area">
             <!-- Slider -->
-                <div class="" id="slider">
-                    <!-- Top part of the slider -->
-                    <div class="">
-                        <div class="testimonial-data" id="carousel-bounding-box">
-                            <div class="carousel slide" id="myCarousel">
-                                <!-- Carousel items -->
-                                <div class="carousel-inner">
-                                    <div class="active item" data-slide-number="0">
-                                        <div class="testimonial-text">
-                                            <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
-                                            <a href="#">Naiana Ansa</a>
-                                        </div>
+            <div class="" id="slider">
+                <!-- Top part of the slider -->
+                <div class="">
+                    <div class="testimonial-data" id="carousel-bounding-box">
+                        <div class="carousel slide" id="myCarousel">
+                            <!-- Carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item" data-slide-number="0">
+                                    <div class="testimonial-text">
+                                        <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
+                                        <a href="#">Naiana Ansa</a>
                                     </div>
-                                    <div class="item" data-slide-number="1">
-                                        <div class="testimonial-text">
-                                            <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
-                                            <a href="#">Jasmine Dou</a>
-                                        </div>
+                                </div>
+                                <div class="item" data-slide-number="1">
+                                    <div class="testimonial-text">
+                                        <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
+                                        <a href="#">Jasmine Dou</a>
                                     </div>
-                                    <div class="item" data-slide-number="2">
-                                        <div class="testimonial-text">
-                                            <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
-                                            <a href="#">David john</a>
-                                        </div>
+                                </div>
+                                <div class="item" data-slide-number="2">
+                                    <div class="testimonial-text">
+                                        <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
+                                        <a href="#">David john</a>
                                     </div>
-                                    <div class="item" data-slide-number="3">
-                                        <div class="testimonial-text">
-                                            <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
-                                            <a href="#">Roth Brown</a>
-                                        </div>
+                                </div>
+                                <div class="item" data-slide-number="3">
+                                    <div class="testimonial-text">
+                                        <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
+                                        <a href="#">Roth Brown</a>
                                     </div>
-                                    <div class="item" data-slide-number="4">
-                                        <div class="testimonial-text">
-                                            <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
-                                            <a href="#">Timothy Smith</a>
-                                        </div>
+                                </div>
+                                <div class="item" data-slide-number="4">
+                                    <div class="testimonial-text">
+                                        <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
+                                        <a href="#">Timothy Smith</a>
                                     </div>
-                                    <div class="item" data-slide-number="5">
-                                        <div class="testimonial-text">
-                                            <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
-                                            <a href="#">PT Kang</a>
-                                        </div>
+                                </div>
+                                <div class="item" data-slide-number="5">
+                                    <div class="testimonial-text">
+                                        <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
+                                        <a href="#">PT Kang</a>
                                     </div>
-                                    <div class="item" data-slide-number="6">
-                                        <div class="testimonial-text">
-                                            <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
-                                            <a href="#">Kinoko Nguyen</a>
-                                        </div>
+                                </div>
+                                <div class="item" data-slide-number="6">
+                                    <div class="testimonial-text">
+                                        <p>Nunc ullamcorper massa eu magna varius commodo. Praesent nec enim eu quam suscipit tincidunt at sed tortor. Quisque quis massa faucibus leo egestas rhoncus. Cras pretium rhoncus urna nec accumsan. Proin vehicula ante non pulvinar dignissim. Curabitur in urna volutpat, suscipit metus at, consectetur ipsum. </p>
+                                        <a href="#">Kinoko Nguyen</a>
                                     </div>
+                                </div>
 
-                                </div><!-- Carousel nav -->
-                            </div>
+                            </div><!-- Carousel nav -->
                         </div>
                     </div>
                 </div>
+            </div>
             <!--/Slider-->
         </div>
         <div class="testimonial-data">
@@ -146,7 +146,10 @@ $url_path = $url_host . $matches[1][0];
                     </div>
                 </div>
                 <!-- Add Pagination -->
-                <div class="swiper-pagination"></div>
+                <!--                <div class="swiper-pagination"></div>-->
+                <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+
             </div>
         </div>
         <div class="side-imgage"><img src="http://<?php echo $url_path ?>/images//testimonials-bg2.png" alt=""></div>
@@ -164,7 +167,20 @@ $url_path = $url_host . $matches[1][0];
             pagination: '.swiper-pagination',
             paginationClickable: true,
             slidesPerView: 5,
-            spaceBetween: 50,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            breakpoints: {
+                992: {
+                    slidesPerView: 4,
+                },
+                536: {
+                    slidesPerView: 3,
+                },
+                407: {
+                    slidesPerView: 2,
+                }
+                
+            }
         });
     </script>
 
