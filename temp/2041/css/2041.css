@@ -240,22 +240,6 @@
   display: flex;
   box-sizing: content-box;
 }
-.type-2041 .testimonial-data .swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
-  display: inline-block;
-  border-radius: 100%;
-  background: #fff;
-  cursor: pointer;
-  margin: 0 2px;
-}
-.type-2041 .testimonial-data .swiper-pagination-bullet:hover {
-  background: #1fd1ad;
-}
-.type-2041 .testimonial-data .swiper-pagination-bullet-active {
-  opacity: 1;
-  background: #00a685;
-}
 .type-2041 .testimonial-data .swiper-container:hover .swiper-button-next {
   right: 0;
 }

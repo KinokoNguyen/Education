@@ -12,7 +12,7 @@ $url_path = $url_host . $matches[1][0];
 
 <div class="type-2038">
 
-    <div class="swiper-container">
+    <div class="swiper-container" id="swiper-container-2038">
         <!--SLIDER-->
         <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -55,4 +55,20 @@ $url_path = $url_host . $matches[1][0];
         </div>
     </div>
     <div class="clearfix"></div>
+
+    <script>
+        var swiper = new Swiper('#swiper-container-2038', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            slidesPerView: 1,
+            autoplay: 2500,
+            effect: 'fade',
+            paginationBulletRender: function (swiper, index, className) {
+                return '<span class="' + className + '">' + (index + 1) + '</span>';
+            }
+        });
+
+    </script>
+
+
 </div>

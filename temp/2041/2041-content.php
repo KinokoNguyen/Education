@@ -79,7 +79,7 @@ $url_path = $url_host . $matches[1][0];
             <!--/Slider-->
         </div>
         <div class="testimonial-data">
-            <div class="swiper-container">
+            <div class="swiper-container" id="swiper-container-2041">
                 <div class="swiper-wrapper" id="bx-pager">
                     <div class="swiper-slide">
                         <a id="carousel-selector-0">
@@ -163,9 +163,7 @@ $url_path = $url_host . $matches[1][0];
 
 
     <script>
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.swiper-pagination',
-            paginationClickable: true,
+        var swiper = new Swiper('#swiper-container-2041', {
             slidesPerView: 5,
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev',
