@@ -17,7 +17,7 @@ $url_path = $url_host . $matches[1][0];
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="span4">
                         <div class="follow">
                             <a href="#">
@@ -31,7 +31,7 @@ $url_path = $url_host . $matches[1][0];
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="span4">
                         <div class="follow">
                             <a href="#">
@@ -45,7 +45,7 @@ $url_path = $url_host . $matches[1][0];
                     </div>
                 </div>
 
-                <div class="col-md-4 col-sm-4">
+                <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="span4">
                         <div class="follow">
                             <a href="#">
@@ -72,7 +72,7 @@ $url_path = $url_host . $matches[1][0];
             <div class="container">
                 <div class="row">
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <h2>Our Articles</h2>
                         <div class="widget widget-slider" id="myCarousel">
                             <div id="carousel-2" class="owl-carousel owl-theme">
@@ -89,7 +89,7 @@ $url_path = $url_host . $matches[1][0];
 
                     </div>
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="widget widget-top-rated">
                             <h2>Top Rated Courses</h2>
                             <ul>
@@ -124,7 +124,7 @@ $url_path = $url_host . $matches[1][0];
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="widget widget-top-rated">
                             <h2>Recent Reviews</h2>
                             <ul>
@@ -159,7 +159,7 @@ $url_path = $url_host . $matches[1][0];
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="widget widget-posts">
                             <h2>Recent Posts</h2>
                             <ul>
@@ -233,7 +233,7 @@ $url_path = $url_host . $matches[1][0];
             <div class="container">
                 <div class="row">
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="widget widget-categories">
                             <h2>Course Categories</h2>
                             <ul>
@@ -251,7 +251,7 @@ $url_path = $url_host . $matches[1][0];
                     </div>
 
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="widget widget-facebook">
                             <h2>Fcebook</h2>
                             <div class="pull-left">
@@ -261,7 +261,7 @@ $url_path = $url_host . $matches[1][0];
                     </div>
 
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="widget widget-newsletter">
                             <h2>Newsletters</h2>
                             <div class="newsletter-contant">
@@ -273,7 +273,7 @@ $url_path = $url_host . $matches[1][0];
                     </div>
 
 
-                    <div class="col-md-3 col-sm-3">
+                    <div class="col-md-3 col-sm-3 col-xs-12">
                         <div class="">
                             <h2>Where we are?</h2>
                             <div class="location-map">

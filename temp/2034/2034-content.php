@@ -204,25 +204,20 @@ $url_path = $url_host . $matches[1][0];
                 document.getElementById("menu-strip").style.display = "block";
 //                document.getElementById("menu-strip").style.padding = 20;
 //                document.getElementById("menu-home").style.position = "relative";
-
                 $('.padding-header').css('padding-top', $("#menu-home").innerHeight() + 5)
-
             }
             if ($(window).scrollTop() > 50) {
 //                document.getElementById("menu-strip").style.padding = 0;
                 document.getElementById("menu-strip").style.display = "none";
 //                document.getElementById("menu-home").style.position = "fixed";
-
                 $('.padding-header').css('padding-top', $("#menu-home").innerHeight() + 5)
-
             }
         });
 
         $(window).on('resize', function () {
             $('.padding-header').css('padding-top', $("#menu-home").innerHeight() + 5)
         }).trigger('resize');
-
-
+        
     </script>
 </div>
 
