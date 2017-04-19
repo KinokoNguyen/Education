@@ -11,7 +11,6 @@ $url_path = $url_host . $matches[1][0];
 ?>
 
 <div class="type-2034">
-    <!--<header>-->
     <!--MENU-->
     <div id="navbar">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="menu-home" >
@@ -115,6 +114,8 @@ $url_path = $url_host . $matches[1][0];
                         <span class="icon-bar"></span>
                     </button>
                 </div>
+                
+                <!--NAVBAR COLLAPSE-->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <!--MENU DROP DOWN-->
@@ -185,16 +186,14 @@ $url_path = $url_host . $matches[1][0];
 
                         <li><a href="#">Contact Us</a></li>
                     </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+                </div>
+                <!--/END NAVBAR COLLAPSE-->
+            </div>
         </nav>
 
     </div>
     <div class="padding-header"></div>
     <!--/END MENU-->
-    <!--    <button>Display the height of div</button>-->
-
-
 
     <script>
         $("nav.navbar-fixed-top").autoHidingNavbar();
@@ -202,14 +201,10 @@ $url_path = $url_host . $matches[1][0];
         $(window).scroll(function () {
             if ($(window).scrollTop() <= 50) {
                 document.getElementById("menu-strip").style.display = "block";
-//                document.getElementById("menu-strip").style.padding = 20;
-//                document.getElementById("menu-home").style.position = "relative";
                 $('.padding-header').css('padding-top', $("#menu-home").innerHeight() + 5)
             }
             if ($(window).scrollTop() > 50) {
-//                document.getElementById("menu-strip").style.padding = 0;
                 document.getElementById("menu-strip").style.display = "none";
-//                document.getElementById("menu-home").style.position = "fixed";
                 $('.padding-header').css('padding-top', $("#menu-home").innerHeight() + 5)
             }
         });
